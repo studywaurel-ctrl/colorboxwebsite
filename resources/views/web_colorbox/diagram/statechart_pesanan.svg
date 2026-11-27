@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1290" viewBox="0 0 900 1290">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<defs><marker id="panah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#000000"/></marker></defs>
+<rect x="10" y="10" width="880" height="1270" fill="none" stroke="#000000" stroke-width="1.2"/>
+<path d="M 10 10 L 177.6 10 L 191.6 24 L 191.6 52 L 10 52 Z" fill="#F5F5F5" stroke="#666666" stroke-width="1"/>
+<text x="20" y="27" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#000000">State Machine Status Pesanan</text>
+<text x="20" y="43" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#000000">Object Pesanan</text>
+<path d="M 220.0 82 L 220.0 112" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 320 134.0 L 640 134.0" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 740.0 156 L 740.0 207" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 156 L 220.0 196" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 240 L 220.0 280" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 324 L 220.0 364" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 320 302.0 L 480 302 L 480.0 364" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 408 L 220.0 448" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 492 L 220.0 532" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 576 L 220.0 616" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 660 L 220.0 700" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 580 386.0 L 740 386 L 740.0 448" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 480.0 408 L 480.0 448" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 740.0 492 L 740 722 L 320 722.0" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 480.0 492 L 480.0 532" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 380 470.0 L 350 470 L 350 386 L 320 386.0" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 480.0 576 L 480.0 616" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 480.0 660 L 480.0 677" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 120 736.0 L 56 736 L 56.0 805" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 744 L 220.0 820" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 320 842.0 L 640 842.0" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 740.0 864 L 740.0 915" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 864 L 220.0 904" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 948 L 220.0 988" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 1032 L 220.0 1072" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 1116 L 220.0 1156" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<path d="M 220.0 1200 L 220.0 1227" fill="none" stroke="#000000" stroke-width="1" marker-end="url(#panah)"/>
+<circle cx="220" cy="72" r="10" fill="#000000"/>
+<circle cx="740" cy="220" r="12" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="740" cy="220" r="7" fill="#000000"/>
+<circle cx="480" cy="690" r="12" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="480" cy="690" r="7" fill="#000000"/>
+<circle cx="56" cy="818" r="12" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="56" cy="818" r="7" fill="#000000"/>
+<circle cx="740" cy="928" r="12" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="740" cy="928" r="7" fill="#000000"/>
+<circle cx="220" cy="1240" r="12" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<circle cx="220" cy="1240" r="7" fill="#000000"/>
+<rect x="120" y="112" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="138.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Tagihan Diterbitkan</text>
+<rect x="640" y="112" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="740.0" y="138.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Dibatalkan</text>
+<rect x="120" y="196" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="222.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pembayaran Diterima</text>
+<rect x="120" y="280" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="306.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Diproses</text>
+<rect x="120" y="364" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="390.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Dikemas</text>
+<rect x="380" y="364" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="480.0" y="390.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Siap Diambil di Toko</text>
+<rect x="120" y="448" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Dikirim Kurir</text>
+<rect x="380" y="448" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="480.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Tidak Diambil</text>
+<rect x="640" y="448" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="740.0" y="474.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Diambil di Toko</text>
+<rect x="120" y="532" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Dalam Perjalanan</text>
+<rect x="380" y="532" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="480.0" y="558.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pengembalian Dana Diproses</text>
+<rect x="120" y="616" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="642.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Menuju Alamat</text>
+<rect x="380" y="616" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="480.0" y="642.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Dana Dikembalikan</text>
+<rect x="120" y="700" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="726.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pesanan Diterima Pelanggan</text>
+<rect x="120" y="820" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="846.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Retur Menunggu Validasi</text>
+<rect x="640" y="820" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="740.0" y="846.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Retur Ditolak</text>
+<rect x="120" y="904" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="930.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Retur Disetujui</text>
+<rect x="120" y="988" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="1014.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Produk Retur Diterima</text>
+<rect x="120" y="1072" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="1098.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Pengembalian Dana Diproses</text>
+<rect x="120" y="1156" width="200" height="44" rx="10" ry="10" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.2"/>
+<text x="220.0" y="1182.0" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#000000" text-anchor="middle">Dana Dikembalikan</text>
+<text x="236" y="100" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">pelanggan menyelesaikan checkout</text>
+<text x="480" y="124" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="middle">batas waktu pembayaran terlampaui</text>
+<text x="230" y="172" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">Midtrans mengirim notifikasi</text>
+<text x="230" y="183" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[pembayaran lunas]</text>
+<text x="230" y="256" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">admin menyiapkan pesanan</text>
+<text x="230" y="340" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">admin mengemas pesanan</text>
+<text x="230" y="351" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[metode pengiriman kurir]</text>
+<text x="490" y="320" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">pesanan disiapkan di toko</text>
+<text x="490" y="331" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[metode ambil di toko]</text>
+<text x="230" y="424" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">paket diserahkan ke kurir</text>
+<text x="230" y="508" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">paket berangkat dari gudang</text>
+<text x="230" y="592" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">kurir menuju alamat pelanggan</text>
+<text x="230" y="676" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">kurir menyerahkan paket</text>
+<text x="596" y="362" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">kasir menyerahkan pesanan</text>
+<text x="596" y="373" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[kode ambil valid]</text>
+<text x="490" y="420" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">pelanggan tidak datang</text>
+<text x="490" y="431" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[lewat H+1]</text>
+<text x="530" y="714" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="middle">pesanan diterima di toko</text>
+<text x="490" y="508" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">admin mengembalikan dana</text>
+<text x="490" y="519" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[pesanan sudah dibayar]</text>
+<text x="356" y="432" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">admin mengirim ke alamat</text>
+<text x="356" y="443" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[pelanggan minta dikirim]</text>
+<text x="490" y="592" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">dana diproses Midtrans</text>
+<text x="68" y="778" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">pelanggan mengonfirmasi</text>
+<text x="68" y="789" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[tidak mengajukan retur]</text>
+<text x="230" y="762" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">pelanggan mengajukan retur</text>
+<text x="230" y="773" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[paling lama tujuh hari]</text>
+<text x="480" y="832" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="middle">admin menolak pengajuan [tidak memenuhi ketentuan]</text>
+<text x="230" y="880" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">admin menyetujui pengajuan</text>
+<text x="230" y="891" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">[memenuhi ketentuan retur]</text>
+<text x="230" y="964" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">produk retur sampai di gudang</text>
+<text x="230" y="1048" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">pemeriksaan gudang selesai</text>
+<text x="230" y="1132" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#000000" text-anchor="start">dana diproses Midtrans</text>
+</svg>

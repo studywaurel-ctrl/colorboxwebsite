@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3410" height="1780" viewBox="0 0 3410 1780" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="panah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#6C8EBF"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="150" y="34" font-size="20" font-weight="700" fill="#16365C">Class Diagram Website Pelanggan Colorbox</text>
+<text x="150" y="52" font-size="11" fill="#16365C">32 kelas model, 48 relasi</text>
+<path d="M 950 194.0 H 934 V 850.0 H 950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="934" y="518.0" font-size="10" fill="#16365C" text-anchor="middle">alamat</text>
+<text x="936" y="190.0" font-size="9" fill="#16365C">1</text>
+<text x="920" y="846.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 136.0 H 1204 V 132.66666666666666 H 1350" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1204" y="130.33333333333331" font-size="10" fill="#16365C" text-anchor="middle">keranjang</text>
+<text x="1192" y="132.0" font-size="9" fill="#16365C">1</text>
+<text x="1320" y="128.66666666666666" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1350 187.33333333333331 H 1334 V 353.3333333333333 H 1350" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1334" y="266.3333333333333" font-size="10" fill="#16365C" text-anchor="middle">item</text>
+<text x="1336" y="183.33333333333331" font-size="9" fill="#16365C">1</text>
+<text x="1320" y="349.3333333333333" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 836.8571428571429 H 404 V 418.66666666666663 H 1350" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="404" y="623.7619047619048" font-size="10" fill="#16365C" text-anchor="middle">varian</text>
+<text x="392" y="832.8571428571429" font-size="9" fill="#16365C">1</text>
+<text x="1320" y="414.66666666666663" font-size="9" fill="#16365C">0..*</text>
+<path d="M 150 131.0 H 134 V 184.0 H 150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="134" y="153.5" font-size="10" fill="#16365C" text-anchor="middle">anak</text>
+<text x="136" y="127.0" font-size="9" fill="#16365C">1</text>
+<text x="120" y="180.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 150 237.0 H 120 V 441.0 H 150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="120" y="335.0" font-size="10" fill="#16365C" text-anchor="middle">produk</text>
+<text x="136" y="233.0" font-size="9" fill="#16365C">1</text>
+<text x="120" y="437.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 194.0 H 1217 V 1077.3333333333333 H 2150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1217" y="631.6666666666666" font-size="10" fill="#16365C" text-anchor="middle">pengguna</text>
+<text x="1192" y="190.0" font-size="9" fill="#16365C">1</text>
+<text x="2120" y="1073.3333333333333" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1986 210.0 H 2004 V 1158.6666666666667 H 2150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2004" y="680.3333333333334" font-size="10" fill="#16365C" text-anchor="middle">pesanan</text>
+<text x="1992" y="206.0" font-size="9" fill="#16365C">1</text>
+<text x="2120" y="1154.6666666666667" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 252.0 H 1230 V 545.0 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1230" y="394.5" font-size="10" fill="#16365C" text-anchor="middle">donasi</text>
+<text x="1192" y="248.0" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="541.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 2950 180.66666666666669 H 2934 V 658.0 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2934" y="415.33333333333337" font-size="10" fill="#16365C" text-anchor="middle">donasi</text>
+<text x="2936" y="176.66666666666669" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="654.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 786 122.5 H 804 V 771.0 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="804" y="442.75" font-size="10" fill="#16365C" text-anchor="middle">toko</text>
+<text x="792" y="118.5" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="767.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 786 167.0 H 817 V 283.33333333333337 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="817" y="221.16666666666669" font-size="10" fill="#16365C" text-anchor="middle">slotDonasi</text>
+<text x="792" y="163.0" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="279.33333333333337" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 310.0 H 1243 V 1350.0 H 2550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1243" y="826.0" font-size="10" fill="#16365C" text-anchor="middle">notifikasi</text>
+<text x="1192" y="306.0" font-size="9" fill="#16365C">1</text>
+<text x="2520" y="1346.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 368.0 H 1256 V 172.28571428571428 H 1750" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1256" y="266.1428571428571" font-size="10" fill="#16365C" text-anchor="middle">pesanan</text>
+<text x="1192" y="364.0" font-size="9" fill="#16365C">1</text>
+<text x="1720" y="168.28571428571428" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 850.0 H 1269 V 266.57142857142856 H 1750" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1269" y="554.2857142857142" font-size="10" fill="#16365C" text-anchor="middle">alamat</text>
+<text x="1192" y="846.0" font-size="9" fill="#16365C">1</text>
+<text x="1720" y="262.57142857142856" font-size="9" fill="#16365C">0..*</text>
+<path d="M 786 211.5 H 830 V 360.85714285714283 H 1750" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="830" y="282.17857142857144" font-size="10" fill="#16365C" text-anchor="middle">toko</text>
+<text x="792" y="207.5" font-size="9" fill="#16365C">1</text>
+<text x="1720" y="356.85714285714283" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1750 455.14285714285717 H 1734 V 881.3333333333334 H 1750" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1734" y="664.2380952380953" font-size="10" fill="#16365C" text-anchor="middle">item</text>
+<text x="1736" y="451.14285714285717" font-size="9" fill="#16365C">1</text>
+<text x="1720" y="877.3333333333334" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1750 549.4285714285714 H 1720 V 1276.0 H 1750" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1720" y="908.7142857142858" font-size="10" fill="#16365C" text-anchor="middle">pembayaran</text>
+<text x="1736" y="545.4285714285714" font-size="9" fill="#16365C">1</text>
+<text x="1720" y="1272.0" font-size="9" fill="#16365C">0..1</text>
+<path d="M 1750 643.7142857142857 H 1706 V 1598.0 H 1750" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1706" y="1116.857142857143" font-size="10" fill="#16365C" text-anchor="middle">pengiriman</text>
+<text x="1736" y="639.7142857142857" font-size="9" fill="#16365C">1</text>
+<text x="1720" y="1594.0" font-size="9" fill="#16365C">0..1</text>
+<path d="M 1986 342.0 H 2017 V 168.0 H 2150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2017" y="251.0" font-size="10" fill="#16365C" text-anchor="middle">riwayat</text>
+<text x="1992" y="338.0" font-size="9" fill="#16365C">1</text>
+<text x="2120" y="164.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1986 474.0 H 2030 V 378.4 H 2150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2030" y="422.2" font-size="10" fill="#16365C" text-anchor="middle">retur</text>
+<text x="1992" y="470.0" font-size="9" fill="#16365C">1</text>
+<text x="2120" y="374.4" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1986 606.0 H 2043 V 534.0 H 2550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2043" y="566.0" font-size="10" fill="#16365C" text-anchor="middle">booking</text>
+<text x="1992" y="602.0" font-size="9" fill="#16365C">1</text>
+<text x="2520" y="530.0" font-size="9" fill="#16365C">0..1</text>
+<path d="M 386 871.7142857142857 H 417 V 978.6666666666666 H 1750" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="417" y="921.1904761904761" font-size="10" fill="#16365C" text-anchor="middle">varian</text>
+<text x="392" y="867.7142857142857" font-size="9" fill="#16365C">1</text>
+<text x="1720" y="974.6666666666666" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 426.0 H 1282 V 926.0 H 1350" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1282" y="672.0" font-size="10" fill="#16365C" text-anchor="middle">riwayatPoin</text>
+<text x="1192" y="422.0" font-size="9" fill="#16365C">1</text>
+<text x="1320" y="922.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 150 546.0 H 106 V 924.0 H 150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="106" y="731.0" font-size="10" fill="#16365C" text-anchor="middle">varian</text>
+<text x="136" y="542.0" font-size="9" fill="#16365C">1</text>
+<text x="120" y="920.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 150 651.0 H 92 V 1190.0 H 150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="92" y="916.5" font-size="10" fill="#16365C" text-anchor="middle">gambar</text>
+<text x="136" y="647.0" font-size="9" fill="#16365C">1</text>
+<text x="120" y="1186.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 420.0 H 430 V 1322.6666666666667 H 950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="430" y="867.3333333333334" font-size="10" fill="#16365C" text-anchor="middle">ulasan</text>
+<text x="392" y="416.0" font-size="9" fill="#16365C">1</text>
+<text x="920" y="1318.6666666666667" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 906.5714285714286 H 443 V 550.6666666666666 H 550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="443" y="724.6190476190476" font-size="10" fill="#16365C" text-anchor="middle">stokToko</text>
+<text x="392" y="902.5714285714286" font-size="9" fill="#16365C">1</text>
+<text x="520" y="546.6666666666666" font-size="9" fill="#16365C">0..*</text>
+<path d="M 2150 452.8 H 2134 V 798.0 H 2150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2134" y="621.4" font-size="10" fill="#16365C" text-anchor="middle">item</text>
+<text x="2136" y="448.8" font-size="9" fill="#16365C">1</text>
+<text x="2120" y="794.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 941.4285714285714 H 456 V 874.0 H 2150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="456" y="903.7142857142858" font-size="10" fill="#16365C" text-anchor="middle">varian</text>
+<text x="392" y="937.4285714285714" font-size="9" fill="#16365C">1</text>
+<text x="2120" y="870.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 484.0 H 1295 V 527.2 H 2150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1295" y="501.6" font-size="10" fill="#16365C" text-anchor="middle">retur</text>
+<text x="1192" y="480.0" font-size="9" fill="#16365C">1</text>
+<text x="2120" y="523.2" font-size="9" fill="#16365C">0..*</text>
+<path d="M 786 256.0 H 843 V 601.6 H 2150" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="843" y="424.8" font-size="10" fill="#16365C" text-anchor="middle">toko</text>
+<text x="792" y="252.0" font-size="9" fill="#16365C">1</text>
+<text x="2120" y="597.6" font-size="9" fill="#16365C">0..*</text>
+<path d="M 950 310.0 H 920 V 1393.3333333333333 H 950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="920" y="847.6666666666666" font-size="10" fill="#16365C" text-anchor="middle">pengguna</text>
+<text x="936" y="306.0" font-size="9" fill="#16365C">1</text>
+<text x="920" y="1389.3333333333333" font-size="9" fill="#16365C">0..*</text>
+<path d="M 550 256.0 H 534 V 621.3333333333334 H 550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="534" y="434.6666666666667" font-size="10" fill="#16365C" text-anchor="middle">stok</text>
+<text x="536" y="252.0" font-size="9" fill="#16365C">1</text>
+<text x="520" y="617.3333333333334" font-size="9" fill="#16365C">0..*</text>
+<path d="M 786 300.5 H 856 V 186.0 H 2550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="856" y="239.25" font-size="10" fill="#16365C" text-anchor="middle">slotTtc</text>
+<text x="792" y="296.5" font-size="9" fill="#16365C">1</text>
+<text x="2520" y="182.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 542.0 H 1308 V 620.0 H 2550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1308" y="577.0" font-size="10" fill="#16365C" text-anchor="middle">tapTryCollect</text>
+<text x="1192" y="538.0" font-size="9" fill="#16365C">1</text>
+<text x="2520" y="616.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 2550 294.0 H 2534 V 706.0 H 2550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2534" y="496.0" font-size="10" fill="#16365C" text-anchor="middle">booking</text>
+<text x="2536" y="290.0" font-size="9" fill="#16365C">1</text>
+<text x="2520" y="702.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 786 345.0 H 869 V 792.0 H 2550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="869" y="564.5" font-size="10" fill="#16365C" text-anchor="middle">toko</text>
+<text x="792" y="341.0" font-size="9" fill="#16365C">1</text>
+<text x="2520" y="788.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 2550 878.0 H 2520 V 1075.3333333333333 H 2550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2520" y="972.6666666666666" font-size="10" fill="#16365C" text-anchor="middle">item</text>
+<text x="2536" y="874.0" font-size="9" fill="#16365C">1</text>
+<text x="2520" y="1071.3333333333333" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 976.2857142857142 H 469 V 1140.6666666666667 H 2550" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="469" y="1054.4761904761904" font-size="10" fill="#16365C" text-anchor="middle">varian</text>
+<text x="392" y="972.2857142857142" font-size="9" fill="#16365C">1</text>
+<text x="2520" y="1136.6666666666667" font-size="9" fill="#16365C">0..*</text>
+<path d="M 950 426.0 H 906 V 1096.6666666666667 H 950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="906" y="757.3333333333334" font-size="10" fill="#16365C" text-anchor="middle">wishlist</text>
+<text x="936" y="422.0" font-size="9" fill="#16365C">1</text>
+<text x="920" y="1092.6666666666667" font-size="9" fill="#16365C">0..*</text>
+<path d="M 786 389.5 H 882 V 542.0 H 950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="882" y="461.75" font-size="10" fill="#16365C" text-anchor="middle">toko</text>
+<text x="792" y="385.5" font-size="9" fill="#16365C">1</text>
+<text x="920" y="538.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 1186 600.0 H 1321 V 1027.0 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="1321" y="809.5" font-size="10" fill="#16365C" text-anchor="middle">pengguna</text>
+<text x="1192" y="596.0" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="1023.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 504.0 H 482 V 1124.0 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="482" y="810.0" font-size="10" fill="#16365C" text-anchor="middle">produk</text>
+<text x="392" y="500.0" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="1120.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 2950 1221.0 H 2920 V 1421.0 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="2920" y="1317.0" font-size="10" fill="#16365C" text-anchor="middle">item</text>
+<text x="2936" y="1217.0" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="1417.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 588.0 H 495 V 1478.0 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="495" y="1029.0" font-size="10" fill="#16365C" text-anchor="middle">produk</text>
+<text x="392" y="584.0" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="1474.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 1011.1428571428571 H 508 V 1535.0 H 2950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="508" y="1269.0714285714284" font-size="10" fill="#16365C" text-anchor="middle">varian</text>
+<text x="392" y="1007.1428571428571" font-size="9" fill="#16365C">1</text>
+<text x="2920" y="1531.0" font-size="9" fill="#16365C">0..*</text>
+<path d="M 386 672.0 H 521 V 1151.3333333333333 H 950" fill="none" stroke="#6C8EBF" stroke-width="1.3" marker-end="url(#panah)"/>
+<text x="521" y="907.6666666666666" font-size="10" fill="#16365C" text-anchor="middle">produk</text>
+<text x="392" y="668.0" font-size="9" fill="#16365C">1</text>
+<text x="920" y="1147.3333333333333" font-size="9" fill="#16365C">0..*</text>
+<rect x="150" y="78" width="236" height="212" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 150 81 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="268.0" y="97" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Category</text>
+<text x="158" y="118" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="158" y="134" font-size="10.5" fill="#16365C">- parent_id: int</text>
+<text x="158" y="150" font-size="10.5" fill="#16365C">- name: string</text>
+<text x="158" y="166" font-size="10.5" fill="#16365C">- slug: string</text>
+<text x="158" y="182" font-size="10.5" fill="#16365C">- sort_order: int</text>
+<text x="158" y="198" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="158" y="214" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="150" y1="220" x2="386" y2="220" stroke="#6C8EBF" stroke-width="1"/>
+<text x="158" y="236" font-size="10.5" fill="#16365C">+ induk(): Category</text>
+<text x="158" y="252" font-size="10.5" fill="#16365C">+ anak(): Category[]</text>
+<text x="158" y="268" font-size="10.5" fill="#16365C">+ produk(): Product[]</text>
+<rect x="150" y="336" width="236" height="420" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 150 339 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="268.0" y="355" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Product</text>
+<text x="158" y="376" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="158" y="392" font-size="10.5" fill="#16365C">- category_id: int</text>
+<text x="158" y="408" font-size="10.5" fill="#16365C">- name: string</text>
+<text x="158" y="424" font-size="10.5" fill="#16365C">- slug: string</text>
+<text x="158" y="440" font-size="10.5" fill="#16365C">- sku: string</text>
+<text x="158" y="456" font-size="10.5" fill="#16365C">- price: int</text>
+<text x="158" y="472" font-size="10.5" fill="#16365C">- discount_price: int</text>
+<text x="158" y="488" font-size="10.5" fill="#16365C">- description: text</text>
+<text x="158" y="504" font-size="10.5" fill="#16365C">- material: string</text>
+<text x="158" y="520" font-size="10.5" fill="#16365C">- care: string</text>
+<text x="158" y="536" font-size="10.5" fill="#16365C">- collection: string</text>
+<text x="158" y="552" font-size="10.5" fill="#16365C">- is_new: bool</text>
+<text x="158" y="568" font-size="10.5" fill="#16365C">- is_active: bool</text>
+<text x="158" y="584" font-size="10.5" fill="#16365C">- weight: int</text>
+<text x="158" y="600" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="158" y="616" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="150" y1="622" x2="386" y2="622" stroke="#6C8EBF" stroke-width="1"/>
+<text x="158" y="638" font-size="10.5" fill="#16365C">+ kategori(): Category</text>
+<text x="158" y="654" font-size="10.5" fill="#16365C">+ varian(): ProductVariant[]</text>
+<text x="158" y="670" font-size="10.5" fill="#16365C">+ gambar(): ProductImage[]</text>
+<text x="158" y="686" font-size="10.5" fill="#16365C">+ ulasan(): Review[]</text>
+<text x="158" y="702" font-size="10.5" fill="#16365C">+ hargaJual()</text>
+<text x="158" y="718" font-size="10.5" fill="#16365C">+ gambarUtama()</text>
+<text x="158" y="734" font-size="10.5" fill="#16365C">+ totalStok()</text>
+<rect x="150" y="802" width="236" height="244" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 150 805 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="268.0" y="821" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">ProductVariant</text>
+<text x="158" y="842" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="158" y="858" font-size="10.5" fill="#16365C">- product_id: int</text>
+<text x="158" y="874" font-size="10.5" fill="#16365C">- color: string</text>
+<text x="158" y="890" font-size="10.5" fill="#16365C">- color_hex: string</text>
+<text x="158" y="906" font-size="10.5" fill="#16365C">- size: string</text>
+<text x="158" y="922" font-size="10.5" fill="#16365C">- sku: string</text>
+<text x="158" y="938" font-size="10.5" fill="#16365C">- stock: int</text>
+<text x="158" y="954" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="158" y="970" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="150" y1="976" x2="386" y2="976" stroke="#6C8EBF" stroke-width="1"/>
+<text x="158" y="992" font-size="10.5" fill="#16365C">+ produk(): Product</text>
+<text x="158" y="1008" font-size="10.5" fill="#16365C">+ stokToko(): StoreStock[]</text>
+<text x="158" y="1024" font-size="10.5" fill="#16365C">+ label()</text>
+<rect x="150" y="1092" width="236" height="196" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 150 1095 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="268.0" y="1111" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">ProductImage</text>
+<text x="158" y="1132" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="158" y="1148" font-size="10.5" fill="#16365C">- product_id: int</text>
+<text x="158" y="1164" font-size="10.5" fill="#16365C">- color: string</text>
+<text x="158" y="1180" font-size="10.5" fill="#16365C">- path: string</text>
+<text x="158" y="1196" font-size="10.5" fill="#16365C">- source_url: string</text>
+<text x="158" y="1212" font-size="10.5" fill="#16365C">- sort_order: int</text>
+<text x="158" y="1228" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="158" y="1244" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="150" y1="1250" x2="386" y2="1250" stroke="#6C8EBF" stroke-width="1"/>
+<text x="158" y="1266" font-size="10.5" fill="#16365C">+ produk(): Product</text>
+<rect x="550" y="78" width="236" height="356" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 550 81 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="668.0" y="97" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Store</text>
+<text x="558" y="118" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="558" y="134" font-size="10.5" fill="#16365C">- code: string</text>
+<text x="558" y="150" font-size="10.5" fill="#16365C">- name: string</text>
+<text x="558" y="166" font-size="10.5" fill="#16365C">- city: string</text>
+<text x="558" y="182" font-size="10.5" fill="#16365C">- address: string</text>
+<text x="558" y="198" font-size="10.5" fill="#16365C">- floor: string</text>
+<text x="558" y="214" font-size="10.5" fill="#16365C">- phone: string</text>
+<text x="558" y="230" font-size="10.5" fill="#16365C">- latitude: decimal</text>
+<text x="558" y="246" font-size="10.5" fill="#16365C">- longitude: decimal</text>
+<text x="558" y="262" font-size="10.5" fill="#16365C">- open_time: time</text>
+<text x="558" y="278" font-size="10.5" fill="#16365C">- close_time: time</text>
+<text x="558" y="294" font-size="10.5" fill="#16365C">- has_ttc: bool</text>
+<text x="558" y="310" font-size="10.5" fill="#16365C">- has_donation: bool</text>
+<text x="558" y="326" font-size="10.5" fill="#16365C">- is_active: bool</text>
+<text x="558" y="342" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="558" y="358" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="550" y1="364" x2="786" y2="364" stroke="#6C8EBF" stroke-width="1"/>
+<text x="558" y="380" font-size="10.5" fill="#16365C">+ stok(): StoreStock[]</text>
+<text x="558" y="396" font-size="10.5" fill="#16365C">+ slotDonasi(): DonationSlot[]</text>
+<text x="558" y="412" font-size="10.5" fill="#16365C">+ slotTtc(): TapTryCollectSlot[]</text>
+<rect x="550" y="480" width="236" height="212" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 550 483 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="668.0" y="499" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">StoreStock</text>
+<text x="558" y="520" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="558" y="536" font-size="10.5" fill="#16365C">- store_id: int</text>
+<text x="558" y="552" font-size="10.5" fill="#16365C">- product_variant_id: int</text>
+<text x="558" y="568" font-size="10.5" fill="#16365C">- stock: int</text>
+<text x="558" y="584" font-size="10.5" fill="#16365C">- reserved: int</text>
+<text x="558" y="600" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="558" y="616" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="550" y1="622" x2="786" y2="622" stroke="#6C8EBF" stroke-width="1"/>
+<text x="558" y="638" font-size="10.5" fill="#16365C">+ toko(): Store</text>
+<text x="558" y="654" font-size="10.5" fill="#16365C">+ varian(): ProductVariant</text>
+<text x="558" y="670" font-size="10.5" fill="#16365C">+ tersedia()</text>
+<rect x="550" y="738" width="236" height="188" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 550 741 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="668.0" y="757" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">ShippingRate</text>
+<text x="558" y="778" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="558" y="794" font-size="10.5" fill="#16365C">- courier: string</text>
+<text x="558" y="810" font-size="10.5" fill="#16365C">- service: string</text>
+<text x="558" y="826" font-size="10.5" fill="#16365C">- cost: int</text>
+<text x="558" y="842" font-size="10.5" fill="#16365C">- etd_min: int</text>
+<text x="558" y="858" font-size="10.5" fill="#16365C">- etd_max: int</text>
+<text x="558" y="874" font-size="10.5" fill="#16365C">- is_active: bool</text>
+<text x="558" y="890" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="558" y="906" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<rect x="550" y="972" width="236" height="180" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 550 975 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="668.0" y="991" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Setting</text>
+<text x="558" y="1012" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="558" y="1028" font-size="10.5" fill="#16365C">- key: string</text>
+<text x="558" y="1044" font-size="10.5" fill="#16365C">- value: string</text>
+<text x="558" y="1060" font-size="10.5" fill="#16365C">- description: string</text>
+<text x="558" y="1076" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="558" y="1092" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="550" y1="1098" x2="786" y2="1098" stroke="#6C8EBF" stroke-width="1"/>
+<text x="558" y="1114" font-size="10.5" fill="#16365C">+ ambil()</text>
+<text x="558" y="1130" font-size="10.5" fill="#16365C">+ simpan()</text>
+<rect x="950" y="78" width="236" height="580" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 950 81 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1068.0" y="97" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">User</text>
+<text x="958" y="118" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="958" y="134" font-size="10.5" fill="#16365C">- name: string</text>
+<text x="958" y="150" font-size="10.5" fill="#16365C">- email: string</text>
+<text x="958" y="166" font-size="10.5" fill="#16365C">- email_verified_at: datetime</text>
+<text x="958" y="182" font-size="10.5" fill="#16365C">- password: string</text>
+<text x="958" y="198" font-size="10.5" fill="#16365C">- phone: string</text>
+<text x="958" y="214" font-size="10.5" fill="#16365C">- birth_date: date</text>
+<text x="958" y="230" font-size="10.5" fill="#16365C">- gender: string</text>
+<text x="958" y="246" font-size="10.5" fill="#16365C">- photo: string</text>
+<text x="958" y="262" font-size="10.5" fill="#16365C">- role: string</text>
+<text x="958" y="278" font-size="10.5" fill="#16365C">- store_id: int</text>
+<text x="958" y="294" font-size="10.5" fill="#16365C">- points: int</text>
+<text x="958" y="310" font-size="10.5" fill="#16365C">- member_code: string</text>
+<text x="958" y="326" font-size="10.5" fill="#16365C">- member_level: string</text>
+<text x="958" y="342" font-size="10.5" fill="#16365C">- remember_token: string</text>
+<text x="958" y="358" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="958" y="374" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="950" y1="380" x2="1186" y2="380" stroke="#6C8EBF" stroke-width="1"/>
+<text x="958" y="396" font-size="10.5" fill="#16365C">+ alamat(): Address[]</text>
+<text x="958" y="412" font-size="10.5" fill="#16365C">+ keranjang(): Cart[]</text>
+<text x="958" y="428" font-size="10.5" fill="#16365C">+ wishlist(): Wishlist[]</text>
+<text x="958" y="444" font-size="10.5" fill="#16365C">+ pesanan(): Order[]</text>
+<text x="958" y="460" font-size="10.5" fill="#16365C">+ retur(): ReturnRequest[]</text>
+<text x="958" y="476" font-size="10.5" fill="#16365C">+ donasi(): Donation[]</text>
+<text x="958" y="492" font-size="10.5" fill="#16365C">+ tapTryCollect(): TapTryCollect[]</text>
+<text x="958" y="508" font-size="10.5" fill="#16365C">+ notifikasi(): Notification[]</text>
+<text x="958" y="524" font-size="10.5" fill="#16365C">+ riwayatPoin(): PointTransaction[]</text>
+<text x="958" y="540" font-size="10.5" fill="#16365C">+ toko(): Store</text>
+<text x="958" y="556" font-size="10.5" fill="#16365C">+ alamatUtama()</text>
+<text x="958" y="572" font-size="10.5" fill="#16365C">+ adalahAdmin()</text>
+<text x="958" y="588" font-size="10.5" fill="#16365C">+ adalahKasir()</text>
+<text x="958" y="604" font-size="10.5" fill="#16365C">+ adalahPetugas()</text>
+<text x="958" y="620" font-size="10.5" fill="#16365C">+ pastikanKodeMember()</text>
+<text x="958" y="636" font-size="10.5" fill="#16365C">+ ubahPoin()</text>
+<rect x="950" y="704" width="236" height="292" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 950 707 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1068.0" y="723" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Address</text>
+<text x="958" y="744" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="958" y="760" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="958" y="776" font-size="10.5" fill="#16365C">- label: string</text>
+<text x="958" y="792" font-size="10.5" fill="#16365C">- recipient: string</text>
+<text x="958" y="808" font-size="10.5" fill="#16365C">- phone: string</text>
+<text x="958" y="824" font-size="10.5" fill="#16365C">- province: string</text>
+<text x="958" y="840" font-size="10.5" fill="#16365C">- city: string</text>
+<text x="958" y="856" font-size="10.5" fill="#16365C">- district: string</text>
+<text x="958" y="872" font-size="10.5" fill="#16365C">- postal_code: string</text>
+<text x="958" y="888" font-size="10.5" fill="#16365C">- detail: string</text>
+<text x="958" y="904" font-size="10.5" fill="#16365C">- landmark: string</text>
+<text x="958" y="920" font-size="10.5" fill="#16365C">- is_primary: bool</text>
+<text x="958" y="936" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="958" y="952" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="950" y1="958" x2="1186" y2="958" stroke="#6C8EBF" stroke-width="1"/>
+<text x="958" y="974" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<rect x="950" y="1042" width="236" height="164" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 950 1045 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1068.0" y="1061" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Wishlist</text>
+<text x="958" y="1082" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="958" y="1098" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="958" y="1114" font-size="10.5" fill="#16365C">- product_id: int</text>
+<text x="958" y="1130" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="958" y="1146" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="950" y1="1152" x2="1186" y2="1152" stroke="#6C8EBF" stroke-width="1"/>
+<text x="958" y="1168" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="958" y="1184" font-size="10.5" fill="#16365C">+ produk(): Product</text>
+<rect x="950" y="1252" width="236" height="212" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 950 1255 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1068.0" y="1271" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Review</text>
+<text x="958" y="1292" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="958" y="1308" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="958" y="1324" font-size="10.5" fill="#16365C">- product_id: int</text>
+<text x="958" y="1340" font-size="10.5" fill="#16365C">- order_item_id: int</text>
+<text x="958" y="1356" font-size="10.5" fill="#16365C">- rating: int</text>
+<text x="958" y="1372" font-size="10.5" fill="#16365C">- comment: text</text>
+<text x="958" y="1388" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="958" y="1404" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="950" y1="1410" x2="1186" y2="1410" stroke="#6C8EBF" stroke-width="1"/>
+<text x="958" y="1426" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="958" y="1442" font-size="10.5" fill="#16365C">+ produk(): Product</text>
+<rect x="1350" y="78" width="236" height="164" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 1350 81 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1468.0" y="97" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Cart</text>
+<text x="1358" y="118" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="1358" y="134" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="1358" y="150" font-size="10.5" fill="#16365C">- session_id: string</text>
+<text x="1358" y="166" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="1358" y="182" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="1350" y1="188" x2="1586" y2="188" stroke="#6C8EBF" stroke-width="1"/>
+<text x="1358" y="204" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="1358" y="220" font-size="10.5" fill="#16365C">+ item(): CartItem[]</text>
+<rect x="1350" y="288" width="236" height="196" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 1350 291 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1468.0" y="307" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">CartItem</text>
+<text x="1358" y="328" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="1358" y="344" font-size="10.5" fill="#16365C">- cart_id: int</text>
+<text x="1358" y="360" font-size="10.5" fill="#16365C">- product_variant_id: int</text>
+<text x="1358" y="376" font-size="10.5" fill="#16365C">- quantity: int</text>
+<text x="1358" y="392" font-size="10.5" fill="#16365C">- selected: bool</text>
+<text x="1358" y="408" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="1358" y="424" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="1350" y1="430" x2="1586" y2="430" stroke="#6C8EBF" stroke-width="1"/>
+<text x="1358" y="446" font-size="10.5" fill="#16365C">+ keranjang(): Cart</text>
+<text x="1358" y="462" font-size="10.5" fill="#16365C">+ varian(): ProductVariant</text>
+<rect x="1350" y="530" width="236" height="252" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 1350 533 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1468.0" y="549" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Voucher</text>
+<text x="1358" y="570" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="1358" y="586" font-size="10.5" fill="#16365C">- code: string</text>
+<text x="1358" y="602" font-size="10.5" fill="#16365C">- name: string</text>
+<text x="1358" y="618" font-size="10.5" fill="#16365C">- type: string</text>
+<text x="1358" y="634" font-size="10.5" fill="#16365C">- value: int</text>
+<text x="1358" y="650" font-size="10.5" fill="#16365C">- max_discount: int</text>
+<text x="1358" y="666" font-size="10.5" fill="#16365C">- min_purchase: int</text>
+<text x="1358" y="682" font-size="10.5" fill="#16365C">- quota: int</text>
+<text x="1358" y="698" font-size="10.5" fill="#16365C">- used: int</text>
+<text x="1358" y="714" font-size="10.5" fill="#16365C">- expired_at: date</text>
+<text x="1358" y="730" font-size="10.5" fill="#16365C">- is_active: bool</text>
+<text x="1358" y="746" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="1358" y="762" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<rect x="1350" y="828" width="236" height="196" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 1350 831 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1468.0" y="847" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">PointTransaction</text>
+<text x="1358" y="868" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="1358" y="884" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="1358" y="900" font-size="10.5" fill="#16365C">- type: string</text>
+<text x="1358" y="916" font-size="10.5" fill="#16365C">- source: string</text>
+<text x="1358" y="932" font-size="10.5" fill="#16365C">- amount: int</text>
+<text x="1358" y="948" font-size="10.5" fill="#16365C">- note: string</text>
+<text x="1358" y="964" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="1358" y="980" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="1350" y1="986" x2="1586" y2="986" stroke="#6C8EBF" stroke-width="1"/>
+<text x="1358" y="1002" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<rect x="1750" y="78" width="236" height="660" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 1750 81 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1868.0" y="97" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Order</text>
+<text x="1758" y="118" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="1758" y="134" font-size="10.5" fill="#16365C">- order_code: string</text>
+<text x="1758" y="150" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="1758" y="166" font-size="10.5" fill="#16365C">- address_id: int</text>
+<text x="1758" y="182" font-size="10.5" fill="#16365C">- store_id: int</text>
+<text x="1758" y="198" font-size="10.5" fill="#16365C">- fulfillment_method: string</text>
+<text x="1758" y="214" font-size="10.5" fill="#16365C">- voucher_id: int</text>
+<text x="1758" y="230" font-size="10.5" fill="#16365C">- subtotal: int</text>
+<text x="1758" y="246" font-size="10.5" fill="#16365C">- shipping_cost: int</text>
+<text x="1758" y="262" font-size="10.5" fill="#16365C">- discount: int</text>
+<text x="1758" y="278" font-size="10.5" fill="#16365C">- points_used: int</text>
+<text x="1758" y="294" font-size="10.5" fill="#16365C">- total: int</text>
+<text x="1758" y="310" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="1758" y="326" font-size="10.5" fill="#16365C">- note: string</text>
+<text x="1758" y="342" font-size="10.5" fill="#16365C">- paid_at: datetime</text>
+<text x="1758" y="358" font-size="10.5" fill="#16365C">- picked_up_at: datetime</text>
+<text x="1758" y="374" font-size="10.5" fill="#16365C">- follow_up_action: string</text>
+<text x="1758" y="390" font-size="10.5" fill="#16365C">- follow_up_at: datetime</text>
+<text x="1758" y="406" font-size="10.5" fill="#16365C">- completed_at: datetime</text>
+<text x="1758" y="422" font-size="10.5" fill="#16365C">- cancelled_at: datetime</text>
+<text x="1758" y="438" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="1758" y="454" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="1750" y1="460" x2="1986" y2="460" stroke="#6C8EBF" stroke-width="1"/>
+<text x="1758" y="476" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="1758" y="492" font-size="10.5" fill="#16365C">+ alamat(): Address</text>
+<text x="1758" y="508" font-size="10.5" fill="#16365C">+ toko(): Store</text>
+<text x="1758" y="524" font-size="10.5" fill="#16365C">+ item(): OrderItem[]</text>
+<text x="1758" y="540" font-size="10.5" fill="#16365C">+ pembayaran(): Payment</text>
+<text x="1758" y="556" font-size="10.5" fill="#16365C">+ pengiriman(): Shipment</text>
+<text x="1758" y="572" font-size="10.5" fill="#16365C">+ riwayat(): TrackingEvent[]</text>
+<text x="1758" y="588" font-size="10.5" fill="#16365C">+ retur(): ReturnRequest[]</text>
+<text x="1758" y="604" font-size="10.5" fill="#16365C">+ booking(): TapTryCollect</text>
+<text x="1758" y="620" font-size="10.5" fill="#16365C">+ ambilDiToko()</text>
+<text x="1758" y="636" font-size="10.5" fill="#16365C">+ bisaDibatalkan()</text>
+<text x="1758" y="652" font-size="10.5" fill="#16365C">+ sudahDiterima()</text>
+<text x="1758" y="668" font-size="10.5" fill="#16365C">+ mulaiHitungRetur()</text>
+<text x="1758" y="684" font-size="10.5" fill="#16365C">+ labelStatus()</text>
+<text x="1758" y="700" font-size="10.5" fill="#16365C">+ daftarStatus()</text>
+<text x="1758" y="716" font-size="10.5" fill="#16365C">+ urutanLangkah()</text>
+<rect x="1750" y="784" width="236" height="292" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 1750 787 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1868.0" y="803" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">OrderItem</text>
+<text x="1758" y="824" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="1758" y="840" font-size="10.5" fill="#16365C">- order_id: int</text>
+<text x="1758" y="856" font-size="10.5" fill="#16365C">- product_variant_id: int</text>
+<text x="1758" y="872" font-size="10.5" fill="#16365C">- product_name: string</text>
+<text x="1758" y="888" font-size="10.5" fill="#16365C">- color: string</text>
+<text x="1758" y="904" font-size="10.5" fill="#16365C">- size: string</text>
+<text x="1758" y="920" font-size="10.5" fill="#16365C">- image_path: string</text>
+<text x="1758" y="936" font-size="10.5" fill="#16365C">- price: int</text>
+<text x="1758" y="952" font-size="10.5" fill="#16365C">- quantity: int</text>
+<text x="1758" y="968" font-size="10.5" fill="#16365C">- subtotal: int</text>
+<text x="1758" y="984" font-size="10.5" fill="#16365C">- reviewed: bool</text>
+<text x="1758" y="1000" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="1758" y="1016" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="1750" y1="1022" x2="1986" y2="1022" stroke="#6C8EBF" stroke-width="1"/>
+<text x="1758" y="1038" font-size="10.5" fill="#16365C">+ pesanan(): Order</text>
+<text x="1758" y="1054" font-size="10.5" fill="#16365C">+ varian(): ProductVariant</text>
+<rect x="1750" y="1122" width="236" height="308" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 1750 1125 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1868.0" y="1141" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Payment</text>
+<text x="1758" y="1162" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="1758" y="1178" font-size="10.5" fill="#16365C">- order_id: int</text>
+<text x="1758" y="1194" font-size="10.5" fill="#16365C">- payment_method: string</text>
+<text x="1758" y="1210" font-size="10.5" fill="#16365C">- transaction_id: string</text>
+<text x="1758" y="1226" font-size="10.5" fill="#16365C">- snap_token: string</text>
+<text x="1758" y="1242" font-size="10.5" fill="#16365C">- snap_url: string</text>
+<text x="1758" y="1258" font-size="10.5" fill="#16365C">- gross_amount: int</text>
+<text x="1758" y="1274" font-size="10.5" fill="#16365C">- transaction_status: string</text>
+<text x="1758" y="1290" font-size="10.5" fill="#16365C">- payment_status: string</text>
+<text x="1758" y="1306" font-size="10.5" fill="#16365C">- raw_response: text</text>
+<text x="1758" y="1322" font-size="10.5" fill="#16365C">- paid_at: datetime</text>
+<text x="1758" y="1338" font-size="10.5" fill="#16365C">- expired_at: datetime</text>
+<text x="1758" y="1354" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="1758" y="1370" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="1750" y1="1376" x2="1986" y2="1376" stroke="#6C8EBF" stroke-width="1"/>
+<text x="1758" y="1392" font-size="10.5" fill="#16365C">+ pesanan(): Order</text>
+<text x="1758" y="1408" font-size="10.5" fill="#16365C">+ petaStatus()</text>
+<rect x="1750" y="1476" width="236" height="244" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 1750 1479 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="1868.0" y="1495" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Shipment</text>
+<text x="1758" y="1516" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="1758" y="1532" font-size="10.5" fill="#16365C">- order_id: int</text>
+<text x="1758" y="1548" font-size="10.5" fill="#16365C">- courier: string</text>
+<text x="1758" y="1564" font-size="10.5" fill="#16365C">- service: string</text>
+<text x="1758" y="1580" font-size="10.5" fill="#16365C">- tracking_number: string</text>
+<text x="1758" y="1596" font-size="10.5" fill="#16365C">- cost: int</text>
+<text x="1758" y="1612" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="1758" y="1628" font-size="10.5" fill="#16365C">- shipped_at: datetime</text>
+<text x="1758" y="1644" font-size="10.5" fill="#16365C">- delivered_at: datetime</text>
+<text x="1758" y="1660" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="1758" y="1676" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="1750" y1="1682" x2="1986" y2="1682" stroke="#6C8EBF" stroke-width="1"/>
+<text x="1758" y="1698" font-size="10.5" fill="#16365C">+ pesanan(): Order</text>
+<rect x="2150" y="78" width="236" height="180" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2150 81 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="2268.0" y="97" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">TrackingEvent</text>
+<text x="2158" y="118" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2158" y="134" font-size="10.5" fill="#16365C">- order_id: int</text>
+<text x="2158" y="150" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="2158" y="166" font-size="10.5" fill="#16365C">- description: string</text>
+<text x="2158" y="182" font-size="10.5" fill="#16365C">- happened_at: datetime</text>
+<text x="2158" y="198" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2158" y="214" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2150" y1="220" x2="2386" y2="220" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2158" y="236" font-size="10.5" fill="#16365C">+ pesanan(): Order</text>
+<rect x="2150" y="304" width="236" height="372" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2150 307 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="2268.0" y="323" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">ReturnRequest</text>
+<text x="2158" y="344" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2158" y="360" font-size="10.5" fill="#16365C">- return_code: string</text>
+<text x="2158" y="376" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="2158" y="392" font-size="10.5" fill="#16365C">- order_id: int</text>
+<text x="2158" y="408" font-size="10.5" fill="#16365C">- store_id: int</text>
+<text x="2158" y="424" font-size="10.5" fill="#16365C">- purchase_code: string</text>
+<text x="2158" y="440" font-size="10.5" fill="#16365C">- type: string</text>
+<text x="2158" y="456" font-size="10.5" fill="#16365C">- method: string</text>
+<text x="2158" y="472" font-size="10.5" fill="#16365C">- reason: string</text>
+<text x="2158" y="488" font-size="10.5" fill="#16365C">- photo: string</text>
+<text x="2158" y="504" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="2158" y="520" font-size="10.5" fill="#16365C">- admin_note: string</text>
+<text x="2158" y="536" font-size="10.5" fill="#16365C">- approved_at: datetime</text>
+<text x="2158" y="552" font-size="10.5" fill="#16365C">- completed_at: datetime</text>
+<text x="2158" y="568" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2158" y="584" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2150" y1="590" x2="2386" y2="590" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2158" y="606" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="2158" y="622" font-size="10.5" fill="#16365C">+ pesanan(): Order</text>
+<text x="2158" y="638" font-size="10.5" fill="#16365C">+ toko(): Store</text>
+<text x="2158" y="654" font-size="10.5" fill="#16365C">+ item(): ReturnItem[]</text>
+<rect x="2150" y="722" width="236" height="228" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2150 725 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="2268.0" y="741" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">ReturnItem</text>
+<text x="2158" y="762" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2158" y="778" font-size="10.5" fill="#16365C">- return_request_id: int</text>
+<text x="2158" y="794" font-size="10.5" fill="#16365C">- order_item_id: int</text>
+<text x="2158" y="810" font-size="10.5" fill="#16365C">- product_variant_id: int</text>
+<text x="2158" y="826" font-size="10.5" fill="#16365C">- product_name: string</text>
+<text x="2158" y="842" font-size="10.5" fill="#16365C">- quantity: int</text>
+<text x="2158" y="858" font-size="10.5" fill="#16365C">- note: string</text>
+<text x="2158" y="874" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2158" y="890" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2150" y1="896" x2="2386" y2="896" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2158" y="912" font-size="10.5" fill="#16365C">+ retur(): ReturnRequest</text>
+<text x="2158" y="928" font-size="10.5" fill="#16365C">+ varian(): ProductVariant</text>
+<rect x="2150" y="996" width="236" height="244" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2150 999 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="2268.0" y="1015" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Complaint</text>
+<text x="2158" y="1036" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2158" y="1052" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="2158" y="1068" font-size="10.5" fill="#16365C">- order_id: int</text>
+<text x="2158" y="1084" font-size="10.5" fill="#16365C">- subject: string</text>
+<text x="2158" y="1100" font-size="10.5" fill="#16365C">- message: text</text>
+<text x="2158" y="1116" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="2158" y="1132" font-size="10.5" fill="#16365C">- response: text</text>
+<text x="2158" y="1148" font-size="10.5" fill="#16365C">- responded_at: datetime</text>
+<text x="2158" y="1164" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2158" y="1180" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2150" y1="1186" x2="2386" y2="1186" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2158" y="1202" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="2158" y="1218" font-size="10.5" fill="#16365C">+ pesanan(): Order</text>
+<rect x="2550" y="78" width="236" height="324" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2550 81 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="2668.0" y="97" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">TapTryCollectSlot</text>
+<text x="2558" y="118" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2558" y="134" font-size="10.5" fill="#16365C">- store_id: int</text>
+<text x="2558" y="150" font-size="10.5" fill="#16365C">- date: date</text>
+<text x="2558" y="166" font-size="10.5" fill="#16365C">- start_time: time</text>
+<text x="2558" y="182" font-size="10.5" fill="#16365C">- end_time: time</text>
+<text x="2558" y="198" font-size="10.5" fill="#16365C">- quota: int</text>
+<text x="2558" y="214" font-size="10.5" fill="#16365C">- booked_count: int</text>
+<text x="2558" y="230" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="2558" y="246" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2558" y="262" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2550" y1="268" x2="2786" y2="268" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2558" y="284" font-size="10.5" fill="#16365C">+ toko(): Store</text>
+<text x="2558" y="300" font-size="10.5" fill="#16365C">+ booking(): TapTryCollect[]</text>
+<text x="2558" y="316" font-size="10.5" fill="#16365C">+ sisaKuota()</text>
+<text x="2558" y="332" font-size="10.5" fill="#16365C">+ tersedia()</text>
+<text x="2558" y="348" font-size="10.5" fill="#16365C">+ mulai()</text>
+<text x="2558" y="364" font-size="10.5" fill="#16365C">+ bolehDipilih()</text>
+<text x="2558" y="380" font-size="10.5" fill="#16365C">+ sebabTertutup()</text>
+<rect x="2550" y="448" width="236" height="516" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2550 451 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="2668.0" y="467" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">TapTryCollect</text>
+<text x="2558" y="488" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2558" y="504" font-size="10.5" fill="#16365C">- booking_code: string</text>
+<text x="2558" y="520" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="2558" y="536" font-size="10.5" fill="#16365C">- tap_try_collect_slot_id: int</text>
+<text x="2558" y="552" font-size="10.5" fill="#16365C">- store_id: int</text>
+<text x="2558" y="568" font-size="10.5" fill="#16365C">- source: string</text>
+<text x="2558" y="584" font-size="10.5" fill="#16365C">- order_id: int</text>
+<text x="2558" y="600" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="2558" y="616" font-size="10.5" fill="#16365C">- purchase_code: string</text>
+<text x="2558" y="632" font-size="10.5" fill="#16365C">- total_paid: int</text>
+<text x="2558" y="648" font-size="10.5" fill="#16365C">- handled_by_user_id: int</text>
+<text x="2558" y="664" font-size="10.5" fill="#16365C">- ready_at: datetime</text>
+<text x="2558" y="680" font-size="10.5" fill="#16365C">- collected_at: datetime</text>
+<text x="2558" y="696" font-size="10.5" fill="#16365C">- completed_at: datetime</text>
+<text x="2558" y="712" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2558" y="728" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2550" y1="734" x2="2786" y2="734" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2558" y="750" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="2558" y="766" font-size="10.5" fill="#16365C">+ slot(): TapTryCollectSlot</text>
+<text x="2558" y="782" font-size="10.5" fill="#16365C">+ toko(): Store</text>
+<text x="2558" y="798" font-size="10.5" fill="#16365C">+ item(): TapTryCollectItem[]</text>
+<text x="2558" y="814" font-size="10.5" fill="#16365C">+ pesanan(): Order</text>
+<text x="2558" y="830" font-size="10.5" fill="#16365C">+ petugas(): User</text>
+<text x="2558" y="846" font-size="10.5" fill="#16365C">+ bisaDibatalkan()</text>
+<text x="2558" y="862" font-size="10.5" fill="#16365C">+ batasAkhir()</text>
+<text x="2558" y="878" font-size="10.5" fill="#16365C">+ labelStatus()</text>
+<text x="2558" y="894" font-size="10.5" fill="#16365C">+ daftarStatus()</text>
+<text x="2558" y="910" font-size="10.5" fill="#16365C">+ tahanStok()</text>
+<text x="2558" y="926" font-size="10.5" fill="#16365C">+ lepasStok()</text>
+<text x="2558" y="942" font-size="10.5" fill="#16365C">+ keluarkanStok()</text>
+<rect x="2550" y="1010" width="236" height="196" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2550 1013 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="2668.0" y="1029" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">TapTryCollectItem</text>
+<text x="2558" y="1050" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2558" y="1066" font-size="10.5" fill="#16365C">- tap_try_collect_id: int</text>
+<text x="2558" y="1082" font-size="10.5" fill="#16365C">- product_variant_id: int</text>
+<text x="2558" y="1098" font-size="10.5" fill="#16365C">- quantity: int</text>
+<text x="2558" y="1114" font-size="10.5" fill="#16365C">- purchased: bool</text>
+<text x="2558" y="1130" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2558" y="1146" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2550" y1="1152" x2="2786" y2="1152" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2558" y="1168" font-size="10.5" fill="#16365C">+ booking(): TapTryCollect</text>
+<text x="2558" y="1184" font-size="10.5" fill="#16365C">+ varian(): ProductVariant</text>
+<rect x="2550" y="1252" width="236" height="196" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2550 1255 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="2668.0" y="1271" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Notification</text>
+<text x="2558" y="1292" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2558" y="1308" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="2558" y="1324" font-size="10.5" fill="#16365C">- title: string</text>
+<text x="2558" y="1340" font-size="10.5" fill="#16365C">- body: string</text>
+<text x="2558" y="1356" font-size="10.5" fill="#16365C">- url: string</text>
+<text x="2558" y="1372" font-size="10.5" fill="#16365C">- read_at: datetime</text>
+<text x="2558" y="1388" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2558" y="1404" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2550" y1="1410" x2="2786" y2="1410" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2558" y="1426" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<rect x="2950" y="78" width="236" height="308" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2950 81 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="3068.0" y="97" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">DonationSlot</text>
+<text x="2958" y="118" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2958" y="134" font-size="10.5" fill="#16365C">- store_id: int</text>
+<text x="2958" y="150" font-size="10.5" fill="#16365C">- date: date</text>
+<text x="2958" y="166" font-size="10.5" fill="#16365C">- start_time: time</text>
+<text x="2958" y="182" font-size="10.5" fill="#16365C">- end_time: time</text>
+<text x="2958" y="198" font-size="10.5" fill="#16365C">- quota: int</text>
+<text x="2958" y="214" font-size="10.5" fill="#16365C">- booked_count: int</text>
+<text x="2958" y="230" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="2958" y="246" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2958" y="262" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2950" y1="268" x2="3186" y2="268" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2958" y="284" font-size="10.5" fill="#16365C">+ toko(): Store</text>
+<text x="2958" y="300" font-size="10.5" fill="#16365C">+ donasi(): Donation[]</text>
+<text x="2958" y="316" font-size="10.5" fill="#16365C">+ sisaKuota()</text>
+<text x="2958" y="332" font-size="10.5" fill="#16365C">+ tersedia()</text>
+<text x="2958" y="348" font-size="10.5" fill="#16365C">+ mulai()</text>
+<text x="2958" y="364" font-size="10.5" fill="#16365C">+ bolehDipilih()</text>
+<rect x="2950" y="432" width="236" height="452" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2950 435 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="3068.0" y="451" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">Donation</text>
+<text x="2958" y="472" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2958" y="488" font-size="10.5" fill="#16365C">- donation_code: string</text>
+<text x="2958" y="504" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="2958" y="520" font-size="10.5" fill="#16365C">- donation_slot_id: int</text>
+<text x="2958" y="536" font-size="10.5" fill="#16365C">- store_id: int</text>
+<text x="2958" y="552" font-size="10.5" fill="#16365C">- estimated_items: int</text>
+<text x="2958" y="568" font-size="10.5" fill="#16365C">- accepted_items: int</text>
+<text x="2958" y="584" font-size="10.5" fill="#16365C">- rejected_items: int</text>
+<text x="2958" y="600" font-size="10.5" fill="#16365C">- condition_note: string</text>
+<text x="2958" y="616" font-size="10.5" fill="#16365C">- verify_note: string</text>
+<text x="2958" y="632" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="2958" y="648" font-size="10.5" fill="#16365C">- points_awarded: int</text>
+<text x="2958" y="664" font-size="10.5" fill="#16365C">- verified_by_user_id: int</text>
+<text x="2958" y="680" font-size="10.5" fill="#16365C">- checked_in_at: datetime</text>
+<text x="2958" y="696" font-size="10.5" fill="#16365C">- verified_at: datetime</text>
+<text x="2958" y="712" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2958" y="728" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2950" y1="734" x2="3186" y2="734" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2958" y="750" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="2958" y="766" font-size="10.5" fill="#16365C">+ slot(): DonationSlot</text>
+<text x="2958" y="782" font-size="10.5" fill="#16365C">+ toko(): Store</text>
+<text x="2958" y="798" font-size="10.5" fill="#16365C">+ petugas(): User</text>
+<text x="2958" y="814" font-size="10.5" fill="#16365C">+ totalDiterima()</text>
+<text x="2958" y="830" font-size="10.5" fill="#16365C">+ bisaDibatalkan()</text>
+<text x="2958" y="846" font-size="10.5" fill="#16365C">+ labelStatus()</text>
+<text x="2958" y="862" font-size="10.5" fill="#16365C">+ daftarStatus()</text>
+<rect x="2950" y="930" width="236" height="388" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2950 933 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="3068.0" y="949" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">VirtualTryOn</text>
+<text x="2958" y="970" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2958" y="986" font-size="10.5" fill="#16365C">- user_id: int</text>
+<text x="2958" y="1002" font-size="10.5" fill="#16365C">- product_id: int</text>
+<text x="2958" y="1018" font-size="10.5" fill="#16365C">- color: string</text>
+<text x="2958" y="1034" font-size="10.5" fill="#16365C">- size: string</text>
+<text x="2958" y="1050" font-size="10.5" fill="#16365C">- look_name: string</text>
+<text x="2958" y="1066" font-size="10.5" fill="#16365C">- saved: bool</text>
+<text x="2958" y="1082" font-size="10.5" fill="#16365C">- photo_path: string</text>
+<text x="2958" y="1098" font-size="10.5" fill="#16365C">- result_path: string</text>
+<text x="2958" y="1114" font-size="10.5" fill="#16365C">- status: string</text>
+<text x="2958" y="1130" font-size="10.5" fill="#16365C">- driver: string</text>
+<text x="2958" y="1146" font-size="10.5" fill="#16365C">- external_id: string</text>
+<text x="2958" y="1162" font-size="10.5" fill="#16365C">- error_message: string</text>
+<text x="2958" y="1178" font-size="10.5" fill="#16365C">- processed_at: datetime</text>
+<text x="2958" y="1194" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2958" y="1210" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2950" y1="1216" x2="3186" y2="1216" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2958" y="1232" font-size="10.5" fill="#16365C">+ pengguna(): User</text>
+<text x="2958" y="1248" font-size="10.5" fill="#16365C">+ produk(): Product</text>
+<text x="2958" y="1264" font-size="10.5" fill="#16365C">+ item(): VirtualTryOnItem[]</text>
+<text x="2958" y="1280" font-size="10.5" fill="#16365C">+ sedangDiproses()</text>
+<text x="2958" y="1296" font-size="10.5" fill="#16365C">+ labelStatus()</text>
+<rect x="2950" y="1364" width="236" height="228" rx="3" fill="#DAE8FC" stroke="#6C8EBF" stroke-width="1.4"/>
+<path d="M 2950 1367 h 236 v 25 h -236 z" fill="#B3CCEA"/>
+<text x="3068.0" y="1383" font-size="13" font-weight="600" fill="#16365C" text-anchor="middle">VirtualTryOnItem</text>
+<text x="2958" y="1404" font-size="10.5" fill="#16365C">- id: int</text>
+<text x="2958" y="1420" font-size="10.5" fill="#16365C">- virtual_try_on_id: int</text>
+<text x="2958" y="1436" font-size="10.5" fill="#16365C">- product_id: int</text>
+<text x="2958" y="1452" font-size="10.5" fill="#16365C">- product_variant_id: int</text>
+<text x="2958" y="1468" font-size="10.5" fill="#16365C">- category_slot: string</text>
+<text x="2958" y="1484" font-size="10.5" fill="#16365C">- sort_order: int</text>
+<text x="2958" y="1500" font-size="10.5" fill="#16365C">- created_at: datetime</text>
+<text x="2958" y="1516" font-size="10.5" fill="#16365C">- updated_at: datetime</text>
+<line x1="2950" y1="1522" x2="3186" y2="1522" stroke="#6C8EBF" stroke-width="1"/>
+<text x="2958" y="1538" font-size="10.5" fill="#16365C">+ percobaan(): VirtualTryOn</text>
+<text x="2958" y="1554" font-size="10.5" fill="#16365C">+ produk(): Product</text>
+<text x="2958" y="1570" font-size="10.5" fill="#16365C">+ varian(): ProductVariant</text>
+</svg>

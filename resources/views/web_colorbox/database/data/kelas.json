@@ -1,0 +1,1081 @@
+{
+    "Address": {
+        "tabel": "addresses",
+        "kolom": [
+            "id",
+            "user_id",
+            "label",
+            "recipient",
+            "phone",
+            "province",
+            "city",
+            "district",
+            "postal_code",
+            "detail",
+            "landmark",
+            "is_primary",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            }
+        ],
+        "method": []
+    },
+    "Cart": {
+        "tabel": "carts",
+        "kolom": [
+            "id",
+            "user_id",
+            "session_id",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "item",
+                "jenis": "HasMany",
+                "tujuan": "CartItem"
+            }
+        ],
+        "method": []
+    },
+    "CartItem": {
+        "tabel": "cart_items",
+        "kolom": [
+            "id",
+            "cart_id",
+            "product_variant_id",
+            "quantity",
+            "selected",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "keranjang",
+                "jenis": "BelongsTo",
+                "tujuan": "Cart"
+            },
+            {
+                "nama": "varian",
+                "jenis": "BelongsTo",
+                "tujuan": "ProductVariant"
+            }
+        ],
+        "method": []
+    },
+    "Category": {
+        "tabel": "categories",
+        "kolom": [
+            "id",
+            "parent_id",
+            "name",
+            "slug",
+            "sort_order",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "induk",
+                "jenis": "BelongsTo",
+                "tujuan": "Category"
+            },
+            {
+                "nama": "anak",
+                "jenis": "HasMany",
+                "tujuan": "Category"
+            },
+            {
+                "nama": "produk",
+                "jenis": "HasMany",
+                "tujuan": "Product"
+            }
+        ],
+        "method": []
+    },
+    "Complaint": {
+        "tabel": "complaints",
+        "kolom": [
+            "id",
+            "user_id",
+            "order_id",
+            "subject",
+            "message",
+            "status",
+            "response",
+            "responded_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "pesanan",
+                "jenis": "BelongsTo",
+                "tujuan": "Order"
+            }
+        ],
+        "method": []
+    },
+    "Donation": {
+        "tabel": "donations",
+        "kolom": [
+            "id",
+            "donation_code",
+            "user_id",
+            "donation_slot_id",
+            "store_id",
+            "estimated_items",
+            "accepted_items",
+            "rejected_items",
+            "condition_note",
+            "verify_note",
+            "status",
+            "points_awarded",
+            "verified_by_user_id",
+            "checked_in_at",
+            "verified_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "slot",
+                "jenis": "BelongsTo",
+                "tujuan": "DonationSlot"
+            },
+            {
+                "nama": "toko",
+                "jenis": "BelongsTo",
+                "tujuan": "Store"
+            },
+            {
+                "nama": "petugas",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            }
+        ],
+        "method": [
+            "totalDiterima()",
+            "bisaDibatalkan()",
+            "labelStatus()",
+            "daftarStatus()",
+            "getRouteKeyName()"
+        ]
+    },
+    "DonationSlot": {
+        "tabel": "donation_slots",
+        "kolom": [
+            "id",
+            "store_id",
+            "date",
+            "start_time",
+            "end_time",
+            "quota",
+            "booked_count",
+            "status",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "toko",
+                "jenis": "BelongsTo",
+                "tujuan": "Store"
+            },
+            {
+                "nama": "donasi",
+                "jenis": "HasMany",
+                "tujuan": "Donation"
+            }
+        ],
+        "method": [
+            "sisaKuota()",
+            "tersedia()",
+            "mulai()",
+            "bolehDipilih()"
+        ]
+    },
+    "Notification": {
+        "tabel": "notifications",
+        "kolom": [
+            "id",
+            "user_id",
+            "title",
+            "body",
+            "url",
+            "read_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            }
+        ],
+        "method": []
+    },
+    "Order": {
+        "tabel": "orders",
+        "kolom": [
+            "id",
+            "order_code",
+            "user_id",
+            "address_id",
+            "store_id",
+            "fulfillment_method",
+            "voucher_id",
+            "subtotal",
+            "shipping_cost",
+            "discount",
+            "points_used",
+            "total",
+            "status",
+            "note",
+            "paid_at",
+            "picked_up_at",
+            "follow_up_action",
+            "follow_up_at",
+            "completed_at",
+            "cancelled_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "alamat",
+                "jenis": "BelongsTo",
+                "tujuan": "Address"
+            },
+            {
+                "nama": "toko",
+                "jenis": "BelongsTo",
+                "tujuan": "Store"
+            },
+            {
+                "nama": "item",
+                "jenis": "HasMany",
+                "tujuan": "OrderItem"
+            },
+            {
+                "nama": "pembayaran",
+                "jenis": "HasOne",
+                "tujuan": "Payment"
+            },
+            {
+                "nama": "pengiriman",
+                "jenis": "HasOne",
+                "tujuan": "Shipment"
+            },
+            {
+                "nama": "riwayat",
+                "jenis": "HasMany",
+                "tujuan": "TrackingEvent"
+            },
+            {
+                "nama": "retur",
+                "jenis": "HasMany",
+                "tujuan": "ReturnRequest"
+            },
+            {
+                "nama": "booking",
+                "jenis": "HasOne",
+                "tujuan": "TapTryCollect"
+            }
+        ],
+        "method": [
+            "ambilDiToko()",
+            "bisaDibatalkan()",
+            "sudahDiterima()",
+            "mulaiHitungRetur()",
+            "labelStatus()",
+            "daftarStatus()",
+            "urutanLangkah()",
+            "getRouteKeyName()"
+        ]
+    },
+    "OrderItem": {
+        "tabel": "order_items",
+        "kolom": [
+            "id",
+            "order_id",
+            "product_variant_id",
+            "product_name",
+            "color",
+            "size",
+            "image_path",
+            "price",
+            "quantity",
+            "subtotal",
+            "reviewed",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pesanan",
+                "jenis": "BelongsTo",
+                "tujuan": "Order"
+            },
+            {
+                "nama": "varian",
+                "jenis": "BelongsTo",
+                "tujuan": "ProductVariant"
+            }
+        ],
+        "method": []
+    },
+    "Payment": {
+        "tabel": "payments",
+        "kolom": [
+            "id",
+            "order_id",
+            "payment_method",
+            "transaction_id",
+            "snap_token",
+            "snap_url",
+            "gross_amount",
+            "transaction_status",
+            "payment_status",
+            "raw_response",
+            "paid_at",
+            "expired_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pesanan",
+                "jenis": "BelongsTo",
+                "tujuan": "Order"
+            }
+        ],
+        "method": [
+            "petaStatus()"
+        ]
+    },
+    "PointTransaction": {
+        "tabel": "point_transactions",
+        "kolom": [
+            "id",
+            "user_id",
+            "type",
+            "source",
+            "amount",
+            "note",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            }
+        ],
+        "method": []
+    },
+    "Product": {
+        "tabel": "products",
+        "kolom": [
+            "id",
+            "category_id",
+            "name",
+            "slug",
+            "sku",
+            "price",
+            "discount_price",
+            "description",
+            "material",
+            "care",
+            "collection",
+            "is_new",
+            "is_active",
+            "weight",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "kategori",
+                "jenis": "BelongsTo",
+                "tujuan": "Category"
+            },
+            {
+                "nama": "varian",
+                "jenis": "HasMany",
+                "tujuan": "ProductVariant"
+            },
+            {
+                "nama": "gambar",
+                "jenis": "HasMany",
+                "tujuan": "ProductImage"
+            },
+            {
+                "nama": "ulasan",
+                "jenis": "HasMany",
+                "tujuan": "Review"
+            }
+        ],
+        "method": [
+            "hargaJual()",
+            "gambarUtama()",
+            "totalStok()",
+            "getRouteKeyName()"
+        ]
+    },
+    "ProductImage": {
+        "tabel": "product_images",
+        "kolom": [
+            "id",
+            "product_id",
+            "color",
+            "path",
+            "source_url",
+            "sort_order",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "produk",
+                "jenis": "BelongsTo",
+                "tujuan": "Product"
+            }
+        ],
+        "method": []
+    },
+    "ProductVariant": {
+        "tabel": "product_variants",
+        "kolom": [
+            "id",
+            "product_id",
+            "color",
+            "color_hex",
+            "size",
+            "sku",
+            "stock",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "produk",
+                "jenis": "BelongsTo",
+                "tujuan": "Product"
+            },
+            {
+                "nama": "stokToko",
+                "jenis": "HasMany",
+                "tujuan": "StoreStock"
+            }
+        ],
+        "method": [
+            "label()"
+        ]
+    },
+    "ReturnItem": {
+        "tabel": "return_items",
+        "kolom": [
+            "id",
+            "return_request_id",
+            "order_item_id",
+            "product_variant_id",
+            "product_name",
+            "quantity",
+            "note",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "retur",
+                "jenis": "BelongsTo",
+                "tujuan": "ReturnRequest"
+            },
+            {
+                "nama": "varian",
+                "jenis": "BelongsTo",
+                "tujuan": "ProductVariant"
+            }
+        ],
+        "method": []
+    },
+    "ReturnRequest": {
+        "tabel": "return_requests",
+        "kolom": [
+            "id",
+            "return_code",
+            "user_id",
+            "order_id",
+            "store_id",
+            "purchase_code",
+            "type",
+            "method",
+            "reason",
+            "photo",
+            "status",
+            "admin_note",
+            "approved_at",
+            "completed_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "pesanan",
+                "jenis": "BelongsTo",
+                "tujuan": "Order"
+            },
+            {
+                "nama": "toko",
+                "jenis": "BelongsTo",
+                "tujuan": "Store"
+            },
+            {
+                "nama": "item",
+                "jenis": "HasMany",
+                "tujuan": "ReturnItem"
+            }
+        ],
+        "method": []
+    },
+    "Review": {
+        "tabel": "reviews",
+        "kolom": [
+            "id",
+            "user_id",
+            "product_id",
+            "order_item_id",
+            "rating",
+            "comment",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "produk",
+                "jenis": "BelongsTo",
+                "tujuan": "Product"
+            }
+        ],
+        "method": []
+    },
+    "Setting": {
+        "tabel": "settings",
+        "kolom": [
+            "id",
+            "key",
+            "value",
+            "description",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [],
+        "method": [
+            "ambil()",
+            "simpan()"
+        ]
+    },
+    "Shipment": {
+        "tabel": "shipments",
+        "kolom": [
+            "id",
+            "order_id",
+            "courier",
+            "service",
+            "tracking_number",
+            "cost",
+            "status",
+            "shipped_at",
+            "delivered_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pesanan",
+                "jenis": "BelongsTo",
+                "tujuan": "Order"
+            }
+        ],
+        "method": []
+    },
+    "ShippingRate": {
+        "tabel": "shipping_rates",
+        "kolom": [
+            "id",
+            "courier",
+            "service",
+            "cost",
+            "etd_min",
+            "etd_max",
+            "is_active",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [],
+        "method": []
+    },
+    "Store": {
+        "tabel": "stores",
+        "kolom": [
+            "id",
+            "code",
+            "name",
+            "city",
+            "address",
+            "floor",
+            "phone",
+            "latitude",
+            "longitude",
+            "open_time",
+            "close_time",
+            "has_ttc",
+            "has_donation",
+            "is_active",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "stok",
+                "jenis": "HasMany",
+                "tujuan": "StoreStock"
+            },
+            {
+                "nama": "slotDonasi",
+                "jenis": "HasMany",
+                "tujuan": "DonationSlot"
+            },
+            {
+                "nama": "slotTtc",
+                "jenis": "HasMany",
+                "tujuan": "TapTryCollectSlot"
+            }
+        ],
+        "method": []
+    },
+    "StoreStock": {
+        "tabel": "store_stocks",
+        "kolom": [
+            "id",
+            "store_id",
+            "product_variant_id",
+            "stock",
+            "reserved",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "toko",
+                "jenis": "BelongsTo",
+                "tujuan": "Store"
+            },
+            {
+                "nama": "varian",
+                "jenis": "BelongsTo",
+                "tujuan": "ProductVariant"
+            }
+        ],
+        "method": [
+            "tersedia()"
+        ]
+    },
+    "TapTryCollect": {
+        "tabel": "tap_try_collects",
+        "kolom": [
+            "id",
+            "booking_code",
+            "user_id",
+            "tap_try_collect_slot_id",
+            "store_id",
+            "source",
+            "order_id",
+            "status",
+            "purchase_code",
+            "total_paid",
+            "handled_by_user_id",
+            "ready_at",
+            "collected_at",
+            "completed_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "slot",
+                "jenis": "BelongsTo",
+                "tujuan": "TapTryCollectSlot"
+            },
+            {
+                "nama": "toko",
+                "jenis": "BelongsTo",
+                "tujuan": "Store"
+            },
+            {
+                "nama": "item",
+                "jenis": "HasMany",
+                "tujuan": "TapTryCollectItem"
+            },
+            {
+                "nama": "pesanan",
+                "jenis": "BelongsTo",
+                "tujuan": "Order"
+            },
+            {
+                "nama": "petugas",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            }
+        ],
+        "method": [
+            "bisaDibatalkan()",
+            "batasAkhir()",
+            "labelStatus()",
+            "daftarStatus()",
+            "tahanStok()",
+            "lepasStok()",
+            "keluarkanStok()",
+            "getRouteKeyName()"
+        ]
+    },
+    "TapTryCollectItem": {
+        "tabel": "tap_try_collect_items",
+        "kolom": [
+            "id",
+            "tap_try_collect_id",
+            "product_variant_id",
+            "quantity",
+            "purchased",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "booking",
+                "jenis": "BelongsTo",
+                "tujuan": "TapTryCollect"
+            },
+            {
+                "nama": "varian",
+                "jenis": "BelongsTo",
+                "tujuan": "ProductVariant"
+            }
+        ],
+        "method": []
+    },
+    "TapTryCollectSlot": {
+        "tabel": "tap_try_collect_slots",
+        "kolom": [
+            "id",
+            "store_id",
+            "date",
+            "start_time",
+            "end_time",
+            "quota",
+            "booked_count",
+            "status",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "toko",
+                "jenis": "BelongsTo",
+                "tujuan": "Store"
+            },
+            {
+                "nama": "booking",
+                "jenis": "HasMany",
+                "tujuan": "TapTryCollect"
+            }
+        ],
+        "method": [
+            "sisaKuota()",
+            "tersedia()",
+            "mulai()",
+            "bolehDipilih()",
+            "sebabTertutup()"
+        ]
+    },
+    "TrackingEvent": {
+        "tabel": "tracking_events",
+        "kolom": [
+            "id",
+            "order_id",
+            "status",
+            "description",
+            "happened_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pesanan",
+                "jenis": "BelongsTo",
+                "tujuan": "Order"
+            }
+        ],
+        "method": []
+    },
+    "User": {
+        "tabel": "users",
+        "kolom": [
+            "id",
+            "name",
+            "email",
+            "email_verified_at",
+            "password",
+            "phone",
+            "birth_date",
+            "gender",
+            "photo",
+            "role",
+            "store_id",
+            "points",
+            "member_code",
+            "member_level",
+            "remember_token",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "alamat",
+                "jenis": "HasMany",
+                "tujuan": "Address"
+            },
+            {
+                "nama": "keranjang",
+                "jenis": "HasMany",
+                "tujuan": "Cart"
+            },
+            {
+                "nama": "wishlist",
+                "jenis": "HasMany",
+                "tujuan": "Wishlist"
+            },
+            {
+                "nama": "pesanan",
+                "jenis": "HasMany",
+                "tujuan": "Order"
+            },
+            {
+                "nama": "retur",
+                "jenis": "HasMany",
+                "tujuan": "ReturnRequest"
+            },
+            {
+                "nama": "donasi",
+                "jenis": "HasMany",
+                "tujuan": "Donation"
+            },
+            {
+                "nama": "tapTryCollect",
+                "jenis": "HasMany",
+                "tujuan": "TapTryCollect"
+            },
+            {
+                "nama": "notifikasi",
+                "jenis": "HasMany",
+                "tujuan": "Notification"
+            },
+            {
+                "nama": "riwayatPoin",
+                "jenis": "HasMany",
+                "tujuan": "PointTransaction"
+            },
+            {
+                "nama": "toko",
+                "jenis": "BelongsTo",
+                "tujuan": "Store"
+            },
+            {
+                "nama": "notifications",
+                "jenis": "MorphMany",
+                "tujuan": "DatabaseNotification"
+            },
+            {
+                "nama": "readNotifications",
+                "jenis": "MorphMany",
+                "tujuan": "DatabaseNotification"
+            },
+            {
+                "nama": "unreadNotifications",
+                "jenis": "MorphMany",
+                "tujuan": "DatabaseNotification"
+            }
+        ],
+        "method": [
+            "alamatUtama()",
+            "adalahAdmin()",
+            "adalahKasir()",
+            "adalahPetugas()",
+            "pastikanKodeMember()",
+            "ubahPoin()",
+            "notify()",
+            "notifyNow()",
+            "routeNotificationFor()"
+        ]
+    },
+    "VirtualTryOn": {
+        "tabel": "virtual_try_ons",
+        "kolom": [
+            "id",
+            "user_id",
+            "product_id",
+            "color",
+            "size",
+            "look_name",
+            "saved",
+            "photo_path",
+            "result_path",
+            "status",
+            "driver",
+            "external_id",
+            "error_message",
+            "processed_at",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "produk",
+                "jenis": "BelongsTo",
+                "tujuan": "Product"
+            },
+            {
+                "nama": "item",
+                "jenis": "HasMany",
+                "tujuan": "VirtualTryOnItem"
+            }
+        ],
+        "method": [
+            "sedangDiproses()",
+            "labelStatus()"
+        ]
+    },
+    "VirtualTryOnItem": {
+        "tabel": "virtual_try_on_items",
+        "kolom": [
+            "id",
+            "virtual_try_on_id",
+            "product_id",
+            "product_variant_id",
+            "category_slot",
+            "sort_order",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "percobaan",
+                "jenis": "BelongsTo",
+                "tujuan": "VirtualTryOn"
+            },
+            {
+                "nama": "produk",
+                "jenis": "BelongsTo",
+                "tujuan": "Product"
+            },
+            {
+                "nama": "varian",
+                "jenis": "BelongsTo",
+                "tujuan": "ProductVariant"
+            }
+        ],
+        "method": []
+    },
+    "Voucher": {
+        "tabel": "vouchers",
+        "kolom": [
+            "id",
+            "code",
+            "name",
+            "type",
+            "value",
+            "max_discount",
+            "min_purchase",
+            "quota",
+            "used",
+            "expired_at",
+            "is_active",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [],
+        "method": []
+    },
+    "Wishlist": {
+        "tabel": "wishlists",
+        "kolom": [
+            "id",
+            "user_id",
+            "product_id",
+            "created_at",
+            "updated_at"
+        ],
+        "relasi": [
+            {
+                "nama": "pengguna",
+                "jenis": "BelongsTo",
+                "tujuan": "User"
+            },
+            {
+                "nama": "produk",
+                "jenis": "BelongsTo",
+                "tujuan": "Product"
+            }
+        ],
+        "method": []
+    }
+}

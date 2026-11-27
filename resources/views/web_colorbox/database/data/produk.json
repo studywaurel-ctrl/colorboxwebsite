@@ -1,0 +1,1587 @@
+{
+ "sumber": "https://colorbox.co.id (data produk resmi Colorbox, diambil melalui products.json)",
+ "catatan": "Deskripsi, bahan, perawatan, berat, dan stok adalah contoh untuk keperluan skripsi.",
+ "produk": [
+  {
+   "nama": "Short Sleeve Stripes Crop T-Shirt",
+   "slug": "short-sleeve-stripes-crop-t-shirt",
+   "harga": 69900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "short-sleeve-stripes-crop-t-shirt-off-white-26o",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSBSC-26O004OFFWHITE1.png"
+    }
+   ]
+  },
+  {
+   "nama": "Long Sleeve Crop Sweatshirt",
+   "slug": "long-sleeve-crop-sweatshirt",
+   "harga": 199900,
+   "kategori": "Outerwear",
+   "koleksi": null,
+   "bahan": "Katun fleece",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK NAVY",
+     "hex": "#18233A",
+     "handle": "long-sleeve-crop-sweatshirt-dark-navy-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITSTKCR-26H091_DARK_NAVY_1_800x800_cad67853-482e-4b36-8491-80a7f9779b16.png"
+    },
+    {
+     "nama": "LT. BLUE",
+     "hex": "#B7CCE4",
+     "handle": "long-sleeve-crop-sweatshirt-lt-blue-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITSTKCR-26H091_LT._BLUE_1_800x800_053148b9-c993-4a44-9abd-d9bf1ade214d.jpg"
+    },
+    {
+     "nama": "ECRU",
+     "hex": "#E4DCCB",
+     "handle": "long-sleeve-crop-sweatshirt-ecru-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITSTKCR-26H091_ECRU_1_800x800_74da30e8-da41-4a31-96ff-b6b830728cd1.png"
+    },
+    {
+     "nama": "DARK BURGUNDY",
+     "hex": "#4A1722",
+     "handle": "long-sleeve-crop-sweatshirt-dark-burgundy-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITSTKCR-26H091_DARK_BURGUNDY_1_800x800_2d96e079-367f-492b-9898-b27fa1b123c2.png"
+    }
+   ]
+  },
+  {
+   "nama": "Long Sleeve Drawstring Balloon Blouse",
+   "slug": "long-sleeve-drawstring-balloon-blouse",
+   "harga": 179900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": null,
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "long-sleeve-drawstring-balloon-blouse-off-white-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKCR-26I045_OFF_WHITE_1_800x800_880a4388-bde9-464f-947b-1b2c86dba050.jpg"
+    },
+    {
+     "nama": "DARK BURGUNDY",
+     "hex": "#4A1722",
+     "handle": "long-sleeve-drawstring-balloon-blouse-dark-burgundy-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKCR-26I045_DARK_BURGUNDY_1_800x800_8c9c2112-fcd2-40d9-8f5b-cffc5abe0b70.jpg"
+    },
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "long-sleeve-drawstring-balloon-blouse-dark-brown-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKCR-26I045_DARK_BROWN_1_800x800_97e38f6f-568f-45e0-a5ca-cefd59178485.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Peterpan Collar Long Sleeve Blouse",
+   "slug": "peterpan-collar-long-sleeve-blouse",
+   "harga": 179900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": null,
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "peterpan-collar-long-sleeve-blouse-off-white-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKCR-26I096_OFF_WHITE_1_800x800_8c28a04e-91d4-4180-8c65-8d78819b34dc.jpg"
+    },
+    {
+     "nama": "MAROON",
+     "hex": "#6B1B2A",
+     "handle": "peterpan-collar-long-sleeve-blouse-maroon-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKCR-26I096_MAROON_1_800x800_47982cb6-44a4-423f-b483-5ea9858688dd.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Fitted Long Sleeve Checks Shirt",
+   "slug": "fitted-long-sleeve-checks-shirt",
+   "harga": 179900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": null,
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DUSTY OLIVE",
+     "hex": "#7B7C5C",
+     "handle": "fitted-long-sleeve-checks-shirt-dusty-olive-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKOV-26I067_DUSTY_OLIVE_1_800x800_02800a0b-e3c1-4d9d-b35a-830b49d00808.jpg"
+    },
+    {
+     "nama": "BROWN",
+     "hex": "#7A4B2A",
+     "handle": "fitted-long-sleeve-checks-shirt-brown-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKOV-26I067_BROWN_1_800x800_0f139b11-c85e-442c-9294-e99f1cd505e7.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Textured Boxy Shirt",
+   "slug": "short-sleeve-textured-boxy-shirt",
+   "harga": 149900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": null,
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "LT. PINK",
+     "hex": "#F1C9D2",
+     "handle": "short-sleeve-textured-boxy-shirt-lt-pink-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBSKJN-26H044LTPINK1.png"
+    },
+    {
+     "nama": "DARK RED",
+     "hex": "#8A1F2B",
+     "handle": "short-sleeve-textured-boxy-shirt-dark-red-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBSKJN-26H044DARKRED_1.png"
+    }
+   ]
+  },
+  {
+   "nama": "Lace Textured Crop Tank Top",
+   "slug": "lace-textured-crop-tank-top",
+   "harga": 79900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BROKEN WHITE",
+     "hex": "#F2EFE7",
+     "handle": "lace-textured-crop-tank-top-broken-white-26o",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTCBSC-26O008_OFF_WHITE_1_800x800_75395725-070b-42d9-897b-7aa292cf37cb.png"
+    },
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "lace-textured-crop-tank-top-black-26o",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTCBSC-26O008_BLACK_1_800x800_49cdd3bf-b038-4aa0-88eb-9e1c365ce3c1.png"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Boxy Crop T-Shirt",
+   "slug": "short-sleeve-boxy-crop-t-shirt",
+   "harga": 69900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "WINE",
+     "hex": "#6E2639",
+     "handle": "short-sleeve-boxy-crop-t-shirt-wine-26o",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTBOCR-26O009_WINE_1_800x800_6b8a9c74-94d7-4cce-8db6-fa27b84accc1.png"
+    }
+   ]
+  },
+  {
+   "nama": "Contrast Layer Long Sleeve Top",
+   "slug": "contrast-layer-long-sleeve-top",
+   "harga": 149900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK RED",
+     "hex": "#8A1F2B",
+     "handle": "contrast-layer-long-sleeve-top-dark-red-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTLKJN-26H041_DARK_RED_1_800x800_4794e3bc-6d5b-4664-9e43-aa6e70fca73e.png"
+    },
+    {
+     "nama": "LT. PINK",
+     "hex": "#F1C9D2",
+     "handle": "contrast-layer-long-sleeve-top-lt-pink-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTLKJN-26H041_LT._PINK_1_800x800_98b590bb-281b-4104-9d8a-9f2ca8f8259c.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Babydoll Buttoned Tank Top",
+   "slug": "babydoll-buttoned-tank-top",
+   "harga": 149900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "ECRU",
+     "hex": "#E4DCCB",
+     "handle": "babydoll-buttoned-tank-top-ecru-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTTKCR-26H047_ECRU_1_800x800_def1fe50-a6a1-4ebc-a5ce-1a3acc1a3db9.jpg"
+    },
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "babydoll-buttoned-tank-top-dark-brown-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTTKCR-26H047_DARK_BROWN_1_800x800_965f778d-b332-4e91-9301-44f9fdc446f5.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Embroidery Short Sleeve Boxy Blouse",
+   "slug": "embroidery-short-sleeve-boxy-blouse",
+   "harga": 199900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": null,
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK OLIVE",
+     "hex": "#4A4B32",
+     "handle": "embroidery-short-sleeve-boxy-blouse-dark-olive-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBSSCR-26H029_DARK_OLIVE_1_800x800_1fd777f8-ea2e-486b-9ab0-ae76418c9b54.jpg"
+    },
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "embroidery-short-sleeve-boxy-blouse-dark-brown-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBSSCR-26H029_DARK_BROWN_1_800x800_3e24c2ce-5b39-4699-a584-5ab49edea4c3.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Puff Sleeve Graphic Tee",
+   "slug": "puff-sleeve-graphic-tee",
+   "harga": 99900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "ECRU",
+     "hex": "#E4DCCB",
+     "handle": "puff-sleeve-graphic-tee-ecru-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKCR-26H048_ECRU_1_800x800_277d4e5c-e7a7-43e5-9440-c1a72d45c492.png"
+    },
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "puff-sleeve-graphic-tee-dark-brown-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKCR-26H048_DARK_BROWN_1_800x800_deeb3bcf-22ca-468d-a475-bf1c5d27583d.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Oversized Short Sleeve Lace Jersey",
+   "slug": "oversized-short-sleeve-lace-jersey",
+   "harga": 299900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BLUE",
+     "hex": "#3B5EA6",
+     "handle": "oversized-short-sleeve-lace-jersey-blue-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I-TSKKJN126G626_BLUE_1_800x800_9a724d99-eeb9-48ed-866e-b58ffc18c794.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Double Layer Collared Top",
+   "slug": "double-layer-collared-top",
+   "harga": 134910,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "double-layer-collared-top-dark-brown-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I-TSKKOV126G121_DARK_BROWN_1_800x800_0e4e264e-b929-41cf-a16e-dadc7d1e8acf.png"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Fitted Collar Top",
+   "slug": "short-sleeve-fitted-collar-top",
+   "harga": 129900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "LT. BEIGE",
+     "hex": "#E7D9C3",
+     "handle": "short-sleeve-fitted-collar-top-lt-beige-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26I103_LT._BEIGE_1_800x800_f9d821ce-ce87-4c83-80be-512a23bb74f2.jpg"
+    },
+    {
+     "nama": "GREY",
+     "hex": "#8C8C8C",
+     "handle": "short-sleeve-fitted-collar-top-grey-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26I009_GREY_1_800x800_4ca21bc3-a1f6-4a96-8e24-73413e0b5028.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Oversized Long Sleeve Shirt",
+   "slug": "oversized-long-sleeve-shirt",
+   "harga": 179900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": null,
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "PLUM",
+     "hex": "#6C3A5A",
+     "handle": "oversized-long-sleeve-shirt-plum-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKOV-26H064_PLUM_1_800x800_e85defe5-cb57-4290-be80-e5466ad29073.png"
+    }
+   ]
+  },
+  {
+   "nama": "Oversized Long Sleeve Stripes Shirt",
+   "slug": "oversized-long-sleeve-stripes-shirt",
+   "harga": 179900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": null,
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "oversized-long-sleeve-stripes-shirt-off-white-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKOV-26H064_OFF_WHITE_1_800x800_2928cee6-f6ad-47a5-8ce2-acb5302b9871.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Stripes Jersey Top",
+   "slug": "short-sleeve-stripes-jersey-top",
+   "harga": 129900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "LT. PINK",
+     "hex": "#F1C9D2",
+     "handle": "short-sleeve-stripes-jersey-top-lt-pink-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26H154_LT._PINK_1_800x800_ce05ae7c-8676-4700-950b-3540305b489a.jpg"
+    },
+    {
+     "nama": "MULTICOLOR",
+     "hex": "#9B8FB5",
+     "handle": "short-sleeve-stripes-jersey-top-multicolor-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26H040_MULTICOLOR_1_800x800_0ed32eb3-0a03-4f43-85da-ac6ff3af4789.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Oversized Short Sleeve Raglan T-Shirt",
+   "slug": "oversized-short-sleeve-raglan-t-shirt",
+   "harga": 129900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "oversized-short-sleeve-raglan-t-shirt-off-white-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26H136_OFF_WHITE_1_800x800_93559cf1-5fd9-4843-85c5-9211c7e9b19d.png"
+    }
+   ]
+  },
+  {
+   "nama": "Button Up Long Sleeve Rib Cardigan",
+   "slug": "button-up-long-sleeve-rib-cardigan",
+   "harga": 179900,
+   "kategori": "Outerwear",
+   "koleksi": null,
+   "bahan": "Katun fleece",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "CAMEL",
+     "hex": "#C2884B",
+     "handle": "button-up-long-sleeve-rib-cardigan-camel-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTLKCR-26H055_CAMEL_1_800x800_4c1b4925-cd3e-42b7-bd40-7efa4877fa3a.png"
+    },
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "button-up-long-sleeve-rib-cardigan-dark-brown-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTLKCR-26H055_DARK_BROWN_1_800x800_746c1ed4-4eee-4807-baca-d71c5fd9ed3f.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Contrast Rib Fitted Raglan T-Shirt",
+   "slug": "contrast-rib-fitted-raglan-t-shirt",
+   "harga": 99900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "LT. PINK",
+     "hex": "#F1C9D2",
+     "handle": "contrast-rib-fitted-raglan-t-shirt-lt-pink-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26H139LT.PINK1.png"
+    },
+    {
+     "nama": "JET BLACK",
+     "hex": "#0B0B0B",
+     "handle": "contrast-rib-fitted-raglan-t-shirt-jet-black-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26H138_JET_BLACK_1_800x800_861501b3-d091-4dd2-a765-ecbce3faceca.png"
+    },
+    {
+     "nama": "DARK RED",
+     "hex": "#8A1F2B",
+     "handle": "contrast-rib-fitted-raglan-t-shirt-dark-red-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26H039_DARK_RED_1_800x800_e8bcd2b0-d78f-46f2-84c0-50cf094e562d.png"
+    }
+   ]
+  },
+  {
+   "nama": "Textured Bow Tied Vest",
+   "slug": "textured-bow-tied-vest",
+   "harga": 149900,
+   "kategori": "Outerwear",
+   "koleksi": null,
+   "bahan": "Katun fleece",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "textured-bow-tied-vest-off-white-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBEKCR-26H069_OFF_WHITE_1.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "V-Neck Sweatshirt with Lace Detail",
+   "slug": "v-neck-sweatshirt-with-lace-detail",
+   "harga": 199900,
+   "kategori": "Outerwear",
+   "koleksi": null,
+   "bahan": "Katun fleece",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "MAROON",
+     "hex": "#6B1B2A",
+     "handle": "v-neck-sweatshirt-with-lace-detail-maroon-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITSTKCR-26I119_MAROON_1_800x800_3b883472-c338-44fb-b105-6bfe4a2f07e5.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Long Sleeve Suede Shirt",
+   "slug": "long-sleeve-suede-shirt",
+   "harga": 249900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": null,
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "ECRU",
+     "hex": "#E4DCCB",
+     "handle": "long-sleeve-suede-shirt-ecru-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITBLKCR-26H053_ECRU_1_800x800_4a6eb1e8-823a-46bb-afc3-a06aac5d3d29.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Collared Knit Top",
+   "slug": "short-sleeve-collared-knit-top",
+   "harga": 199900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "short-sleeve-collared-knit-top-off-white-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKOV-26H058_OFF_WHITE_1_800x800_0ce6e291-ebe2-4f1b-b20e-cf2f32a3a527.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Oversized Openwork Knit Top",
+   "slug": "oversized-openwork-knit-top",
+   "harga": 199900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "oversized-openwork-knit-top-black-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSSJN-26H031_BLACK_1_800x800_0bb58108-e7b2-4e0b-84d6-9ec8225880f7.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Oversized Contrast Sleeves Jersey Top",
+   "slug": "oversized-contrast-sleeves-jersey-top",
+   "harga": 129900,
+   "kategori": "Atasan",
+   "koleksi": null,
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BURGUNDY",
+     "hex": "#4A1722",
+     "handle": "oversized-contrast-sleeves-jersey-top-dark-burgundy-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSKJN-26H135_DARK_BURGUNDY_1_800x800_97cce789-79c5-4c2f-9fa6-540f40ce6248.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Wide Leg Trousers",
+   "slug": "wide-leg-trousers",
+   "harga": 179900,
+   "kategori": "Bawahan",
+   "koleksi": null,
+   "bahan": "Poliester campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BURGUNDY",
+     "hex": "#5E1F2D",
+     "handle": "wide-leg-trousers-burgundy-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBLPKBT-26H118_BURGUNDY_1_800x800_5f05c29d-3e61-41dd-b88f-06032a9efa65.png"
+    }
+   ]
+  },
+  {
+   "nama": "Cropped Barrel Pants",
+   "slug": "cropped-barrel-pants",
+   "harga": 249900,
+   "kategori": "Bawahan",
+   "koleksi": null,
+   "bahan": "Poliester campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "cropped-barrel-pants-dark-brown-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBLPKBT-26H116_DARK_BROWN_1_800x800_076520cf-db68-47e5-80c0-84153b10dc3b.png"
+    }
+   ]
+  },
+  {
+   "nama": "Linen Blend Crop Barrel Trousers",
+   "slug": "linen-blend-crop-barrel-trousers",
+   "harga": 249900,
+   "kategori": "Bawahan",
+   "koleksi": null,
+   "bahan": "Poliester campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BURGUNDY",
+     "hex": "#5E1F2D",
+     "handle": "linen-blend-crop-barrel-trousers-burgundy-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBLPKBT-26H116_BURGUNDY_1.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Long Pants with Side Buckle Details",
+   "slug": "long-pants-with-side-buckle-details",
+   "harga": 249900,
+   "kategori": "Bawahan",
+   "koleksi": null,
+   "bahan": "Poliester campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "long-pants-with-side-buckle-details-black-6h0",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBLPSOV-26H025_BLACK_1_800x800_d7705762-a92c-4feb-a238-0c82fc16f3a7.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Roll Up Baggy Jeans",
+   "slug": "roll-up-baggy-jeans",
+   "harga": 329900,
+   "kategori": "Denim",
+   "koleksi": null,
+   "bahan": "Denim katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "26",
+    "27",
+    "28",
+    "29",
+    "30"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BLUE",
+     "hex": "#2B3A5A",
+     "handle": "roll-up-baggy-jeans-dark-blue-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBDPKBT526H120_DARK_BLUE_1.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Unfinished Hem Flare Jeans",
+   "slug": "unfinished-hem-flare-jeans",
+   "harga": 329900,
+   "kategori": "Denim",
+   "koleksi": null,
+   "bahan": "Denim katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "26",
+    "27",
+    "28",
+    "29"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "unfinished-hem-flare-jeans-dark-brown-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBDPSCR526H037_DARK_BROWN_1_800x800_ada2b322-a479-4f26-94d2-70301f33ba15.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Basic Baggy Jorts",
+   "slug": "basic-baggy-jorts",
+   "harga": 299900,
+   "kategori": "Denim",
+   "koleksi": null,
+   "bahan": "Denim katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BLUE",
+     "hex": "#2B3A5A",
+     "handle": "basic-baggy-jorts-dark-blue-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBBRKBT-26H108_DARK_BLUE_1.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Oversized Denim Hoodie Jacket",
+   "slug": "oversized-denim-hoodie-jacket",
+   "harga": 359900,
+   "kategori": "Outerwear",
+   "koleksi": null,
+   "bahan": "Katun fleece",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "oversized-denim-hoodie-jacket-dark-brown-26f",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I-JKDFJN126F095_DARK_BROWN_1_800x800_94f6c8d3-6894-4789-94f6-b6c7c3437495.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Western Style Suede Jacket",
+   "slug": "western-style-suede-jacket",
+   "harga": 359900,
+   "kategori": "Outerwear",
+   "koleksi": null,
+   "bahan": "Katun fleece",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "TAN",
+     "hex": "#C08B54",
+     "handle": "western-style-suede-jacket-tan-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I-JKWFCR126E005_TAN_1_800x800_ddc34a9e-cee7-4c16-98ed-571df01b1464.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Satin Midi Skirt",
+   "slug": "satin-midi-skirt",
+   "harga": 229900,
+   "kategori": "Rok",
+   "koleksi": null,
+   "bahan": "Poliester",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BURGUNDY",
+     "hex": "#5E1F2D",
+     "handle": "satin-midi-skirt-burgundy-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBSDKBT-26H117_BURGUNDY_1.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Stud Details Tiered Mini Skirt",
+   "slug": "stud-details-tiered-mini-skirt",
+   "harga": 199900,
+   "kategori": "Rok",
+   "koleksi": null,
+   "bahan": "Poliester",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "stud-details-tiered-mini-skirt-off-white-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBSIKCR-26H032_OFF_WHITE_1_800x800_8fce370c-e002-4c5f-ae5c-3f0d069bdb07.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Fitted Mini Suede Skirt",
+   "slug": "fitted-mini-suede-skirt",
+   "harga": 179910,
+   "kategori": "Rok",
+   "koleksi": null,
+   "bahan": "Poliester",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "TAN",
+     "hex": "#C08B54",
+     "handle": "fitted-mini-suede-skirt-tan-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I-SIWFCR126E009_TAN_1.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Wrap Stripes Mini Skort",
+   "slug": "wrap-stripes-mini-skort",
+   "harga": 199900,
+   "kategori": "Rok",
+   "koleksi": null,
+   "bahan": "Poliester",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "PLUM",
+     "hex": "#6C3A5A",
+     "handle": "wrap-stripes-mini-skort-plum-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/IBSIKSN-26H025_PLUM_1_800x800_e629c4d8-3d85-47d0-9c44-4cac3e8b88ef.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Graphic T-Shirt",
+   "slug": "short-sleeve-graphic-t-shirt",
+   "harga": 79900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "short-sleeve-graphic-t-shirt-off-white-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSBBT-26H095_OFF_WHITE_1_800x800_62042da5-de5c-407f-a73d-08095ccb49d9.png"
+    },
+    {
+     "nama": "MAROON",
+     "hex": "#6B1B2A",
+     "handle": "short-sleeve-graphic-t-shirt-maroon-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSBBT-26H094_MAROON_1_800x800_65920278-090e-4c7e-b79d-0d16ff8b9bb7.png"
+    },
+    {
+     "nama": "RED",
+     "hex": "#C3222B",
+     "handle": "short-sleeve-graphic-t-shirt-red-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSBBT-26H089_RED_1_800x800_e534aadf-b4b0-4917-8143-c23964379099.png"
+    }
+   ]
+  },
+  {
+   "nama": "Long Sleeve Off Shoulder Fitted T-Shirt",
+   "slug": "long-sleeve-off-shoulder-fitted-t-shirt",
+   "harga": 99900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "long-sleeve-off-shoulder-fitted-t-shirt-black-062",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I-TLKBSC5062101_BLACK_1_800x800_4eea1a98-e9db-47b7-86fd-93c9daa32e30.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Fitted T-Shirt",
+   "slug": "short-sleeve-fitted-t-shirt",
+   "harga": 79900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "WINE",
+     "hex": "#6E2639",
+     "handle": "short-sleeve-fitted-t-shirt-wine-6o0",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITTSBSC26O009_WINE_1_800x800_3ba43e94-d3ae-429b-b89f-fa094218b9f8.png"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Fitted Crop T-Shirt",
+   "slug": "short-sleeve-fitted-crop-t-shirt",
+   "harga": 79900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "NAVY",
+     "hex": "#1F2A44",
+     "handle": "short-sleeve-fitted-crop-t-shirt-navy-040",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I_TSKBSC504244_NAVY_1_800x800_92864f48-75ea-48ff-b83e-328a986e078d.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Basic Fitted T-Shirt",
+   "slug": "short-sleeve-basic-fitted-t-shirt",
+   "harga": 79900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "TOSCA",
+     "hex": "#3FA5A0",
+     "handle": "short-sleeve-basic-fitted-t-shirt-tosca-040",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I_TSKBSC5040226_TOSCA_1_800x800_d6ad4efe-ee16-4b4e-bf7e-2040d337f4bc.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Contrast Lining T-Shirt",
+   "slug": "short-sleeve-contrast-lining-t-shirt",
+   "harga": 79900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "short-sleeve-contrast-lining-t-shirt-dark-brown-040",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITSKBSC5040267_DARK_BROWN_1_800x800_72dca118-24dd-48bd-bd59-44781c486f11.jpg"
+    },
+    {
+     "nama": "LT. PINK",
+     "hex": "#F1C9D2",
+     "handle": "short-sleeve-contrast-lining-t-shirt-lt-pink-040",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/ITSKBSC5040203_LT._PINK_1_800x800_aa506521-c535-4d93-9bd8-5b762ef0ec57.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Short Sleeve Rolled Up T-Shirt",
+   "slug": "short-sleeve-rolled-up-t-shirt",
+   "harga": 69900,
+   "kategori": "Basics",
+   "koleksi": null,
+   "bahan": "Katun",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "TAUPE",
+     "hex": "#B6A392",
+     "handle": "short-sleeve-rolled-up-t-shirt-taupe-021",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I_TSKBSC5021156_TAUPE_1_800x800_154448b5-57a7-4c26-91e5-9177d41056ea.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Leopard Pattern Flatshoes",
+   "slug": "leopard-pattern-flatshoes",
+   "harga": 199900,
+   "kategori": "Sepatu",
+   "koleksi": null,
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "warna": [
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "leopard-pattern-flatshoes-dark-brown-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I5SHPASC126H262_DARK_BROWN_1_800x800_b7d5d38b-94a9-4598-94a9-66fed5254fb6.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Zebra Pattern Flatshoes",
+   "slug": "zebra-pattern-flatshoes",
+   "harga": 199900,
+   "kategori": "Sepatu",
+   "koleksi": null,
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "warna": [
+    {
+     "nama": "MULTICOLOR",
+     "hex": "#9B8FB5",
+     "handle": "zebra-pattern-flatshoes-multicolor-26h",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I5SHPASC126H261_MULTICOLOR_1_800x800_aaa836ed-235f-4439-ae6d-29670084a3e1.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Double Buckle Mules",
+   "slug": "double-buckle-mules",
+   "harga": 229900,
+   "kategori": "Sepatu",
+   "koleksi": null,
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "36",
+    "37",
+    "38",
+    "39"
+   ],
+   "warna": [
+    {
+     "nama": "MAROON",
+     "hex": "#6B1B2A",
+     "handle": "double-buckle-mules-maroon-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I5SHTASC226G233_MAROON_1_800x800_6c5bf9a2-ecff-4f32-91f9-ce47cdfb0635.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Strap Sneakers",
+   "slug": "strap-sneakers",
+   "harga": 259900,
+   "kategori": "Sepatu",
+   "koleksi": null,
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "36",
+    "37",
+    "38",
+    "39",
+    "40"
+   ],
+   "warna": [
+    {
+     "nama": "MAROON",
+     "hex": "#6B1B2A",
+     "handle": "strap-sneakers-maroon-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I5SHTASC226E234_MAROON_1_800x800_72ddbfc3-462c-4e5f-b0d4-312474e69780.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Flower Buckle Belt",
+   "slug": "flower-buckle-belt",
+   "harga": 99900,
+   "kategori": "Aksesori",
+   "koleksi": null,
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S/M",
+    "L/XL"
+   ],
+   "warna": [
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "flower-buckle-belt-black-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I2BLPASC126E217_BLACK_1_800x800_35320a34-746a-43bb-a33c-19849275c23a.jpg"
+    },
+    {
+     "nama": "DARK BROWN",
+     "hex": "#4B2E20",
+     "handle": "flower-buckle-belt-dark-brown-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I2BLPASC126E218_DARK_BROWN_1_800x800_c4259357-9b25-4f69-ac61-fd0dce0c1d4d.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Silver Buckle Belt",
+   "slug": "silver-buckle-belt",
+   "harga": 99900,
+   "kategori": "Aksesori",
+   "koleksi": null,
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S/M",
+    "L/XL"
+   ],
+   "warna": [
+    {
+     "nama": "BEIGE",
+     "hex": "#DCC9AC",
+     "handle": "silver-buckle-belt-beige-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I2BLPASC126E220_BEIGE_1_800x800_c0b9f0a4-12a8-4a5b-9a36-9743efa76f2c.jpg"
+    },
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "silver-buckle-belt-black-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I2BLPASC126E219_BLACK_1_800x800_9395f0a1-e658-4452-9ecc-5c0a82804c5f.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Adjustable Sling Bag",
+   "slug": "adjustable-sling-bag",
+   "harga": 159900,
+   "kategori": "Tas",
+   "koleksi": null,
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "NS"
+   ],
+   "warna": [
+    {
+     "nama": "DUSTY PINK",
+     "hex": "#D9A7AE",
+     "handle": "adjustable-sling-bag-dusty-pink-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I1BGTASC126I308_DUSTY_PINK_1_800x800_d16a67ca-27c9-4beb-bfef-4c748c09d5fe.jpg"
+    },
+    {
+     "nama": "BEIGE",
+     "hex": "#DCC9AC",
+     "handle": "adjustable-sling-bag-beige-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I1BGTASC126I307_BEIGE_1_800x800_797230a4-2f75-4195-809d-cf3f258cb25d.jpg"
+    },
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "adjustable-sling-bag-black-26i",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I1BGTASC126I306_BLACK_1_800x800_9275c751-4a2c-4c16-b2e0-9a38bc262a1c.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Pouch Shoulder Bag",
+   "slug": "pouch-shoulder-bag",
+   "harga": 229900,
+   "kategori": "Tas",
+   "koleksi": null,
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "NS"
+   ],
+   "warna": [
+    {
+     "nama": "DARK DENIM",
+     "hex": "#33415C",
+     "handle": "pouch-shoulder-bag-dark-denim-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I1BGTASC126G299_DENIM_BLUE_1_800x800_967f6ec9-3b60-40ef-a928-1c91fe21c1e2.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Colorbox x Liunic Oversized Sweatshirt",
+   "slug": "colorbox-x-liunic-oversized-sweatshirt",
+   "harga": 249900,
+   "kategori": "Outerwear",
+   "koleksi": "Colorbox x Liunic",
+   "bahan": "Katun fleece",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "OFF WHITE",
+     "hex": "#F4F1EA",
+     "handle": "liunic-x-colorbox-oversized-sweatshirt-off-white-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/409.jpg"
+    },
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "liunic-x-colorbox-oversized-sweatshirt-black-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/408.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Colorbox x Liunic Ric Rac Applique Jacket",
+   "slug": "colorbox-x-liunic-ric-rac-applique-jacket",
+   "harga": 329900,
+   "kategori": "Outerwear",
+   "koleksi": "Colorbox x Liunic",
+   "bahan": "Katun fleece",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "liunic-x-colorbox-ric-rac-applique-jacket-black-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/410.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Colorbox x Liunic Contrast Collar Stripes Shirt",
+   "slug": "colorbox-x-liunic-contrast-collar-stripes-shirt",
+   "harga": 229900,
+   "kategori": "Kemeja dan Blus",
+   "koleksi": "Colorbox x Liunic",
+   "bahan": "Rayon",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "LT. BLUE",
+     "hex": "#B7CCE4",
+     "handle": "liunic-x-colorbox-contrast-collar-stripes-shirt-lt-blue-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/404.jpg"
+    },
+    {
+     "nama": "LT. PINK",
+     "hex": "#F1C9D2",
+     "handle": "liunic-x-colorbox-contrast-collar-stripes-shirt-lt-pink-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/405.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Colorbox x Liunic Mix Printed Baby Tee",
+   "slug": "colorbox-x-liunic-mix-printed-baby-tee",
+   "harga": 149900,
+   "kategori": "Atasan",
+   "koleksi": "Colorbox x Liunic",
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "LT. PINK",
+     "hex": "#F1C9D2",
+     "handle": "liunic-x-colorbox-mix-printed-baby-tee-lt-pink-26g",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/403.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Colorbox x Liunic Oversized Printed Jersey",
+   "slug": "colorbox-x-liunic-oversized-printed-jersey",
+   "harga": 199900,
+   "kategori": "Atasan",
+   "koleksi": "Colorbox x Liunic",
+   "bahan": "Katun campuran",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "S",
+    "M",
+    "L",
+    "XL"
+   ],
+   "warna": [
+    {
+     "nama": "MULTICOLOR",
+     "hex": "#9B8FB5",
+     "handle": "liunic-x-colorbox-oversized-printed-jersey-multicolor-26g-2",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/407.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Colorbox x Liunic Tote Bag",
+   "slug": "colorbox-x-liunic-tote-bag",
+   "harga": 199900,
+   "kategori": "Tas",
+   "koleksi": "Colorbox x Liunic",
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "NS"
+   ],
+   "warna": [
+    {
+     "nama": "ECRU",
+     "hex": "#E4DCCB",
+     "handle": "colorbox-x-liunic-tote-bag-ecru-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I1BGTASC126E240_ECRU_1_800x800_af18482b-e554-4d3c-a22d-3cfb6d6c71af.jpg"
+    }
+   ]
+  },
+  {
+   "nama": "Colorbox x Liunic Tumbler",
+   "slug": "colorbox-x-liunic-tumbler",
+   "harga": 199900,
+   "kategori": "Aksesori",
+   "koleksi": "Colorbox x Liunic",
+   "bahan": "Sintetis",
+   "perawatan": "Cuci dengan mesin suhu rendah, jangan diputihkan, setrika suhu sedang.",
+   "ukuran": [
+    "NS"
+   ],
+   "warna": [
+    {
+     "nama": "BLACK",
+     "hex": "#111111",
+     "handle": "colorbox-x-liunic-tumbler-black-26e",
+     "gambar_sumber": "https://cdn.shopify.com/s/files/1/0423/9120/8086/files/I1EQMASC126E253_BLACK_1_800x800_9030546d-0158-4559-9dc7-131d9e3071e0.jpg"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+  <uml:Model xmi:type="uml:Model" xmi:id="model_colorbox" name="ColorboxPelanggan">
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Category" name="Category">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Category_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Category_1" name="parent_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Category_2" name="name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Category_3" name="slug" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Category_4" name="sort_order" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Category_5" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Category_6" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Category_0" name="induk" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Category_1" name="anak" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Category_2" name="produk" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Product" name="Product">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_1" name="category_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_2" name="name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_3" name="slug" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_4" name="sku" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_5" name="price" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_6" name="discount_price" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_7" name="description" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_8" name="material" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_9" name="care" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_10" name="collection" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_11" name="is_new" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_12" name="is_active" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_13" name="weight" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_14" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Product_15" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Product_0" name="kategori" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Product_1" name="varian" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Product_2" name="gambar" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Product_3" name="ulasan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Product_4" name="hargaJual" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Product_5" name="gambarUtama" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Product_6" name="totalStok" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_ProductVariant" name="ProductVariant">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_1" name="product_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_2" name="color" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_3" name="color_hex" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_4" name="size" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_5" name="sku" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_6" name="stock" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_7" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductVariant_8" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ProductVariant_0" name="produk" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ProductVariant_1" name="stokToko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ProductVariant_2" name="label" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_ProductImage" name="ProductImage">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductImage_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductImage_1" name="product_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductImage_2" name="color" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductImage_3" name="path" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductImage_4" name="source_url" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductImage_5" name="sort_order" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductImage_6" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ProductImage_7" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ProductImage_0" name="produk" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Store" name="Store">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_1" name="code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_2" name="name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_3" name="city" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_4" name="address" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_5" name="floor" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_6" name="phone" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_7" name="latitude" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_8" name="longitude" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_9" name="open_time" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_10" name="close_time" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_11" name="has_ttc" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_12" name="has_donation" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_13" name="is_active" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_14" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Store_15" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Store_0" name="stok" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Store_1" name="slotDonasi" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Store_2" name="slotTtc" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_StoreStock" name="StoreStock">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_StoreStock_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_StoreStock_1" name="store_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_StoreStock_2" name="product_variant_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_StoreStock_3" name="stock" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_StoreStock_4" name="reserved" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_StoreStock_5" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_StoreStock_6" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_StoreStock_0" name="toko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_StoreStock_1" name="varian" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_StoreStock_2" name="tersedia" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_ShippingRate" name="ShippingRate">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_1" name="courier" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_2" name="service" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_3" name="cost" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_4" name="etd_min" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_5" name="etd_max" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_6" name="is_active" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_7" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ShippingRate_8" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Setting" name="Setting">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Setting_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Setting_1" name="key" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Setting_2" name="value" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Setting_3" name="description" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Setting_4" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Setting_5" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Setting_0" name="ambil" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Setting_1" name="simpan" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_User" name="User">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_1" name="name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_2" name="email" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_3" name="email_verified_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_4" name="password" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_5" name="phone" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_6" name="birth_date" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_7" name="gender" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_8" name="photo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_9" name="role" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_10" name="store_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_11" name="points" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_12" name="member_code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_13" name="member_level" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_14" name="remember_token" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_15" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_User_16" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_0" name="alamat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_1" name="keranjang" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_2" name="wishlist" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_3" name="pesanan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_4" name="retur" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_5" name="donasi" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_6" name="tapTryCollect" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_7" name="notifikasi" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_8" name="riwayatPoin" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_9" name="toko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_10" name="alamatUtama" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_11" name="adalahAdmin" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_12" name="adalahKasir" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_13" name="adalahPetugas" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_14" name="pastikanKodeMember" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_User_15" name="ubahPoin" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Address" name="Address">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_1" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_2" name="label" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_3" name="recipient" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_4" name="phone" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_5" name="province" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_6" name="city" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_7" name="district" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_8" name="postal_code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_9" name="detail" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_10" name="landmark" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_11" name="is_primary" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_12" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Address_13" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Address_0" name="pengguna" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Wishlist" name="Wishlist">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Wishlist_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Wishlist_1" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Wishlist_2" name="product_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Wishlist_3" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Wishlist_4" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Wishlist_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Wishlist_1" name="produk" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Review" name="Review">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Review_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Review_1" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Review_2" name="product_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Review_3" name="order_item_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Review_4" name="rating" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Review_5" name="comment" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Review_6" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Review_7" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Review_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Review_1" name="produk" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Cart" name="Cart">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Cart_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Cart_1" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Cart_2" name="session_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Cart_3" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Cart_4" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Cart_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Cart_1" name="item" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_CartItem" name="CartItem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_CartItem_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_CartItem_1" name="cart_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_CartItem_2" name="product_variant_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_CartItem_3" name="quantity" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_CartItem_4" name="selected" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_CartItem_5" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_CartItem_6" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_CartItem_0" name="keranjang" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_CartItem_1" name="varian" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Voucher" name="Voucher">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_1" name="code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_2" name="name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_3" name="type" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_4" name="value" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_5" name="max_discount" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_6" name="min_purchase" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_7" name="quota" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_8" name="used" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_9" name="expired_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_10" name="is_active" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_11" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Voucher_12" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_PointTransaction" name="PointTransaction">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_PointTransaction_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_PointTransaction_1" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_PointTransaction_2" name="type" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_PointTransaction_3" name="source" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_PointTransaction_4" name="amount" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_PointTransaction_5" name="note" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_PointTransaction_6" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_PointTransaction_7" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_PointTransaction_0" name="pengguna" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Order" name="Order">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_1" name="order_code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_2" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_3" name="address_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_4" name="store_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_5" name="fulfillment_method" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_6" name="voucher_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_7" name="subtotal" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_8" name="shipping_cost" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_9" name="discount" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_10" name="points_used" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_11" name="total" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_12" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_13" name="note" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_14" name="paid_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_15" name="picked_up_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_16" name="follow_up_action" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_17" name="follow_up_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_18" name="completed_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_19" name="cancelled_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_20" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Order_21" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_1" name="alamat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_2" name="toko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_3" name="item" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_4" name="pembayaran" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_5" name="pengiriman" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_6" name="riwayat" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_7" name="retur" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_8" name="booking" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_9" name="ambilDiToko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_10" name="bisaDibatalkan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_11" name="sudahDiterima" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_12" name="mulaiHitungRetur" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_13" name="labelStatus" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_14" name="daftarStatus" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Order_15" name="urutanLangkah" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_OrderItem" name="OrderItem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_1" name="order_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_2" name="product_variant_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_3" name="product_name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_4" name="color" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_5" name="size" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_6" name="image_path" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_7" name="price" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_8" name="quantity" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_9" name="subtotal" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_10" name="reviewed" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_11" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_OrderItem_12" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_OrderItem_0" name="pesanan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_OrderItem_1" name="varian" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Payment" name="Payment">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_1" name="order_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_2" name="payment_method" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_3" name="transaction_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_4" name="snap_token" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_5" name="snap_url" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_6" name="gross_amount" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_7" name="transaction_status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_8" name="payment_status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_9" name="raw_response" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_10" name="paid_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_11" name="expired_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_12" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Payment_13" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Payment_0" name="pesanan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Payment_1" name="petaStatus" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Shipment" name="Shipment">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_1" name="order_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_2" name="courier" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_3" name="service" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_4" name="tracking_number" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_5" name="cost" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_6" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_7" name="shipped_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_8" name="delivered_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_9" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Shipment_10" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Shipment_0" name="pesanan" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_TrackingEvent" name="TrackingEvent">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TrackingEvent_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TrackingEvent_1" name="order_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TrackingEvent_2" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TrackingEvent_3" name="description" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TrackingEvent_4" name="happened_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TrackingEvent_5" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TrackingEvent_6" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TrackingEvent_0" name="pesanan" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_ReturnRequest" name="ReturnRequest">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_1" name="return_code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_2" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_3" name="order_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_4" name="store_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_5" name="purchase_code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_6" name="type" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_7" name="method" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_8" name="reason" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_9" name="photo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_10" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_11" name="admin_note" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_12" name="approved_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_13" name="completed_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_14" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnRequest_15" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ReturnRequest_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ReturnRequest_1" name="pesanan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ReturnRequest_2" name="toko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ReturnRequest_3" name="item" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_ReturnItem" name="ReturnItem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_1" name="return_request_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_2" name="order_item_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_3" name="product_variant_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_4" name="product_name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_5" name="quantity" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_6" name="note" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_7" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_ReturnItem_8" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ReturnItem_0" name="retur" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_ReturnItem_1" name="varian" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Complaint" name="Complaint">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_1" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_2" name="order_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_3" name="subject" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_4" name="message" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_5" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_6" name="response" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_7" name="responded_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_8" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Complaint_9" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Complaint_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Complaint_1" name="pesanan" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_TapTryCollectSlot" name="TapTryCollectSlot">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_1" name="store_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_2" name="date" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_3" name="start_time" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_4" name="end_time" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_5" name="quota" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_6" name="booked_count" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_7" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_8" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectSlot_9" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectSlot_0" name="toko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectSlot_1" name="booking" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectSlot_2" name="sisaKuota" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectSlot_3" name="tersedia" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectSlot_4" name="mulai" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectSlot_5" name="bolehDipilih" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectSlot_6" name="sebabTertutup" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_TapTryCollect" name="TapTryCollect">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_1" name="booking_code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_2" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_3" name="tap_try_collect_slot_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_4" name="store_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_5" name="source" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_6" name="order_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_7" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_8" name="purchase_code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_9" name="total_paid" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_10" name="handled_by_user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_11" name="ready_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_12" name="collected_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_13" name="completed_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_14" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollect_15" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_1" name="slot" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_2" name="toko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_3" name="item" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_4" name="pesanan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_5" name="petugas" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_6" name="bisaDibatalkan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_7" name="batasAkhir" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_8" name="labelStatus" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_9" name="daftarStatus" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_10" name="tahanStok" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_11" name="lepasStok" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollect_12" name="keluarkanStok" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_TapTryCollectItem" name="TapTryCollectItem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectItem_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectItem_1" name="tap_try_collect_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectItem_2" name="product_variant_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectItem_3" name="quantity" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectItem_4" name="purchased" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectItem_5" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_TapTryCollectItem_6" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectItem_0" name="booking" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_TapTryCollectItem_1" name="varian" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Notification" name="Notification">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Notification_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Notification_1" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Notification_2" name="title" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Notification_3" name="body" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Notification_4" name="url" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Notification_5" name="read_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Notification_6" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Notification_7" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Notification_0" name="pengguna" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_DonationSlot" name="DonationSlot">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_1" name="store_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_2" name="date" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_3" name="start_time" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_4" name="end_time" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_5" name="quota" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_6" name="booked_count" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_7" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_8" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_DonationSlot_9" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_DonationSlot_0" name="toko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_DonationSlot_1" name="donasi" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_DonationSlot_2" name="sisaKuota" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_DonationSlot_3" name="tersedia" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_DonationSlot_4" name="mulai" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_DonationSlot_5" name="bolehDipilih" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_Donation" name="Donation">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_1" name="donation_code" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_2" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_3" name="donation_slot_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_4" name="store_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_5" name="estimated_items" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_6" name="accepted_items" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_7" name="rejected_items" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_8" name="condition_note" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_9" name="verify_note" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_10" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_11" name="points_awarded" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_12" name="verified_by_user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_13" name="checked_in_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_14" name="verified_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_15" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_Donation_16" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Donation_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Donation_1" name="slot" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Donation_2" name="toko" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Donation_3" name="petugas" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Donation_4" name="totalDiterima" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Donation_5" name="bisaDibatalkan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Donation_6" name="labelStatus" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_Donation_7" name="daftarStatus" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_VirtualTryOn" name="VirtualTryOn">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_1" name="user_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_2" name="product_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_3" name="color" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_4" name="size" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_5" name="look_name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_6" name="saved" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_7" name="photo_path" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_8" name="result_path" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_9" name="status" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_10" name="driver" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_11" name="external_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_12" name="error_message" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_13" name="processed_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_14" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOn_15" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_VirtualTryOn_0" name="pengguna" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_VirtualTryOn_1" name="produk" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_VirtualTryOn_2" name="item" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_VirtualTryOn_3" name="sedangDiproses" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_VirtualTryOn_4" name="labelStatus" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="cls_VirtualTryOnItem" name="VirtualTryOnItem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOnItem_0" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOnItem_1" name="virtual_try_on_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOnItem_2" name="product_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOnItem_3" name="product_variant_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOnItem_4" name="category_slot" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOnItem_5" name="sort_order" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOnItem_6" name="created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="atr_VirtualTryOnItem_7" name="updated_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="http://schema.omg.org/spec/UML/2.1/uml.xml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_VirtualTryOnItem_0" name="percobaan" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_VirtualTryOnItem_1" name="produk" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="opr_VirtualTryOnItem_2" name="varian" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_0" name="alamat" memberEnd="aso_0_a aso_0_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_0_a" name="user" type="cls_User" association="aso_0">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_0_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_0_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_0_b" name="alamat" type="cls_Address" association="aso_0">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_0_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_0_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_1" name="keranjang" memberEnd="aso_1_a aso_1_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_1_a" name="user" type="cls_User" association="aso_1">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_1_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_1_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_1_b" name="keranjang" type="cls_Cart" association="aso_1">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_1_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_1_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_2" name="item" memberEnd="aso_2_a aso_2_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_2_a" name="cart" type="cls_Cart" association="aso_2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_2_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_2_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_2_b" name="item" type="cls_CartItem" association="aso_2">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_2_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_2_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_3" name="varian" memberEnd="aso_3_a aso_3_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_3_a" name="productVariant" type="cls_ProductVariant" association="aso_3">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_3_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_3_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_3_b" name="varian" type="cls_CartItem" association="aso_3">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_3_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_3_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_4" name="anak" memberEnd="aso_4_a aso_4_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_4_a" name="category" type="cls_Category" association="aso_4">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_4_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_4_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_4_b" name="anak" type="cls_Category" association="aso_4">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_4_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_4_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_5" name="produk" memberEnd="aso_5_a aso_5_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_5_a" name="category" type="cls_Category" association="aso_5">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_5_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_5_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_5_b" name="produk" type="cls_Product" association="aso_5">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_5_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_5_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_6" name="pengguna" memberEnd="aso_6_a aso_6_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_6_a" name="user" type="cls_User" association="aso_6">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_6_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_6_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_6_b" name="pengguna" type="cls_Complaint" association="aso_6">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_6_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_6_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_7" name="pesanan" memberEnd="aso_7_a aso_7_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_7_a" name="order" type="cls_Order" association="aso_7">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_7_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_7_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_7_b" name="pesanan" type="cls_Complaint" association="aso_7">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_7_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_7_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_8" name="donasi" memberEnd="aso_8_a aso_8_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_8_a" name="user" type="cls_User" association="aso_8">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_8_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_8_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_8_b" name="donasi" type="cls_Donation" association="aso_8">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_8_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_8_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_9" name="donasi" memberEnd="aso_9_a aso_9_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_9_a" name="donationSlot" type="cls_DonationSlot" association="aso_9">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_9_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_9_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_9_b" name="donasi" type="cls_Donation" association="aso_9">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_9_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_9_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_10" name="toko" memberEnd="aso_10_a aso_10_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_10_a" name="store" type="cls_Store" association="aso_10">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_10_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_10_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_10_b" name="toko" type="cls_Donation" association="aso_10">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_10_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_10_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_11" name="slotDonasi" memberEnd="aso_11_a aso_11_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_11_a" name="store" type="cls_Store" association="aso_11">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_11_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_11_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_11_b" name="slotDonasi" type="cls_DonationSlot" association="aso_11">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_11_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_11_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_12" name="notifikasi" memberEnd="aso_12_a aso_12_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_12_a" name="user" type="cls_User" association="aso_12">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_12_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_12_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_12_b" name="notifikasi" type="cls_Notification" association="aso_12">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_12_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_12_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_13" name="pesanan" memberEnd="aso_13_a aso_13_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_13_a" name="user" type="cls_User" association="aso_13">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_13_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_13_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_13_b" name="pesanan" type="cls_Order" association="aso_13">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_13_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_13_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_14" name="alamat" memberEnd="aso_14_a aso_14_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_14_a" name="address" type="cls_Address" association="aso_14">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_14_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_14_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_14_b" name="alamat" type="cls_Order" association="aso_14">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_14_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_14_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_15" name="toko" memberEnd="aso_15_a aso_15_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_15_a" name="store" type="cls_Store" association="aso_15">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_15_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_15_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_15_b" name="toko" type="cls_Order" association="aso_15">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_15_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_15_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_16" name="item" memberEnd="aso_16_a aso_16_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_16_a" name="order" type="cls_Order" association="aso_16">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_16_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_16_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_16_b" name="item" type="cls_OrderItem" association="aso_16">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_16_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_16_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_17" name="pembayaran" memberEnd="aso_17_a aso_17_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_17_a" name="order" type="cls_Order" association="aso_17">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_17_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_17_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_17_b" name="pembayaran" type="cls_Payment" association="aso_17">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_17_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_17_b_u" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_18" name="pengiriman" memberEnd="aso_18_a aso_18_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_18_a" name="order" type="cls_Order" association="aso_18">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_18_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_18_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_18_b" name="pengiriman" type="cls_Shipment" association="aso_18">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_18_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_18_b_u" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_19" name="riwayat" memberEnd="aso_19_a aso_19_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_19_a" name="order" type="cls_Order" association="aso_19">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_19_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_19_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_19_b" name="riwayat" type="cls_TrackingEvent" association="aso_19">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_19_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_19_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_20" name="retur" memberEnd="aso_20_a aso_20_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_20_a" name="order" type="cls_Order" association="aso_20">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_20_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_20_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_20_b" name="retur" type="cls_ReturnRequest" association="aso_20">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_20_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_20_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_21" name="booking" memberEnd="aso_21_a aso_21_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_21_a" name="order" type="cls_Order" association="aso_21">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_21_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_21_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_21_b" name="booking" type="cls_TapTryCollect" association="aso_21">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_21_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_21_b_u" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_22" name="varian" memberEnd="aso_22_a aso_22_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_22_a" name="productVariant" type="cls_ProductVariant" association="aso_22">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_22_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_22_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_22_b" name="varian" type="cls_OrderItem" association="aso_22">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_22_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_22_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_23" name="riwayatPoin" memberEnd="aso_23_a aso_23_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_23_a" name="user" type="cls_User" association="aso_23">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_23_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_23_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_23_b" name="riwayatPoin" type="cls_PointTransaction" association="aso_23">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_23_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_23_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_24" name="varian" memberEnd="aso_24_a aso_24_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_24_a" name="product" type="cls_Product" association="aso_24">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_24_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_24_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_24_b" name="varian" type="cls_ProductVariant" association="aso_24">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_24_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_24_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_25" name="gambar" memberEnd="aso_25_a aso_25_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_25_a" name="product" type="cls_Product" association="aso_25">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_25_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_25_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_25_b" name="gambar" type="cls_ProductImage" association="aso_25">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_25_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_25_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_26" name="ulasan" memberEnd="aso_26_a aso_26_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_26_a" name="product" type="cls_Product" association="aso_26">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_26_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_26_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_26_b" name="ulasan" type="cls_Review" association="aso_26">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_26_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_26_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_27" name="stokToko" memberEnd="aso_27_a aso_27_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_27_a" name="productVariant" type="cls_ProductVariant" association="aso_27">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_27_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_27_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_27_b" name="stokToko" type="cls_StoreStock" association="aso_27">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_27_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_27_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_28" name="item" memberEnd="aso_28_a aso_28_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_28_a" name="returnRequest" type="cls_ReturnRequest" association="aso_28">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_28_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_28_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_28_b" name="item" type="cls_ReturnItem" association="aso_28">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_28_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_28_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_29" name="varian" memberEnd="aso_29_a aso_29_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_29_a" name="productVariant" type="cls_ProductVariant" association="aso_29">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_29_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_29_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_29_b" name="varian" type="cls_ReturnItem" association="aso_29">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_29_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_29_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_30" name="retur" memberEnd="aso_30_a aso_30_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_30_a" name="user" type="cls_User" association="aso_30">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_30_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_30_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_30_b" name="retur" type="cls_ReturnRequest" association="aso_30">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_30_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_30_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_31" name="toko" memberEnd="aso_31_a aso_31_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_31_a" name="store" type="cls_Store" association="aso_31">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_31_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_31_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_31_b" name="toko" type="cls_ReturnRequest" association="aso_31">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_31_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_31_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_32" name="pengguna" memberEnd="aso_32_a aso_32_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_32_a" name="user" type="cls_User" association="aso_32">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_32_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_32_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_32_b" name="pengguna" type="cls_Review" association="aso_32">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_32_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_32_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_33" name="stok" memberEnd="aso_33_a aso_33_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_33_a" name="store" type="cls_Store" association="aso_33">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_33_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_33_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_33_b" name="stok" type="cls_StoreStock" association="aso_33">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_33_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_33_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_34" name="slotTtc" memberEnd="aso_34_a aso_34_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_34_a" name="store" type="cls_Store" association="aso_34">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_34_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_34_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_34_b" name="slotTtc" type="cls_TapTryCollectSlot" association="aso_34">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_34_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_34_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_35" name="tapTryCollect" memberEnd="aso_35_a aso_35_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_35_a" name="user" type="cls_User" association="aso_35">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_35_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_35_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_35_b" name="tapTryCollect" type="cls_TapTryCollect" association="aso_35">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_35_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_35_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_36" name="booking" memberEnd="aso_36_a aso_36_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_36_a" name="tapTryCollectSlot" type="cls_TapTryCollectSlot" association="aso_36">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_36_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_36_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_36_b" name="booking" type="cls_TapTryCollect" association="aso_36">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_36_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_36_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_37" name="toko" memberEnd="aso_37_a aso_37_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_37_a" name="store" type="cls_Store" association="aso_37">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_37_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_37_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_37_b" name="toko" type="cls_TapTryCollect" association="aso_37">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_37_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_37_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_38" name="item" memberEnd="aso_38_a aso_38_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_38_a" name="tapTryCollect" type="cls_TapTryCollect" association="aso_38">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_38_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_38_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_38_b" name="item" type="cls_TapTryCollectItem" association="aso_38">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_38_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_38_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_39" name="varian" memberEnd="aso_39_a aso_39_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_39_a" name="productVariant" type="cls_ProductVariant" association="aso_39">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_39_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_39_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_39_b" name="varian" type="cls_TapTryCollectItem" association="aso_39">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_39_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_39_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_40" name="wishlist" memberEnd="aso_40_a aso_40_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_40_a" name="user" type="cls_User" association="aso_40">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_40_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_40_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_40_b" name="wishlist" type="cls_Wishlist" association="aso_40">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_40_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_40_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_41" name="toko" memberEnd="aso_41_a aso_41_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_41_a" name="store" type="cls_Store" association="aso_41">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_41_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_41_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_41_b" name="toko" type="cls_User" association="aso_41">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_41_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_41_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_42" name="pengguna" memberEnd="aso_42_a aso_42_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_42_a" name="user" type="cls_User" association="aso_42">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_42_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_42_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_42_b" name="pengguna" type="cls_VirtualTryOn" association="aso_42">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_42_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_42_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_43" name="produk" memberEnd="aso_43_a aso_43_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_43_a" name="product" type="cls_Product" association="aso_43">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_43_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_43_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_43_b" name="produk" type="cls_VirtualTryOn" association="aso_43">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_43_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_43_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_44" name="item" memberEnd="aso_44_a aso_44_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_44_a" name="virtualTryOn" type="cls_VirtualTryOn" association="aso_44">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_44_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_44_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_44_b" name="item" type="cls_VirtualTryOnItem" association="aso_44">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_44_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_44_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_45" name="produk" memberEnd="aso_45_a aso_45_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_45_a" name="product" type="cls_Product" association="aso_45">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_45_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_45_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_45_b" name="produk" type="cls_VirtualTryOnItem" association="aso_45">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_45_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_45_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_46" name="varian" memberEnd="aso_46_a aso_46_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_46_a" name="productVariant" type="cls_ProductVariant" association="aso_46">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_46_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_46_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_46_b" name="varian" type="cls_VirtualTryOnItem" association="aso_46">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_46_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_46_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="aso_47" name="produk" memberEnd="aso_47_a aso_47_b">
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_47_a" name="product" type="cls_Product" association="aso_47">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_47_a_l" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_47_a_u" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="aso_47_b" name="produk" type="cls_Wishlist" association="aso_47">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="aso_47_b_l" value="0"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="aso_47_b_u" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+  </uml:Model>
+</xmi:XMI>

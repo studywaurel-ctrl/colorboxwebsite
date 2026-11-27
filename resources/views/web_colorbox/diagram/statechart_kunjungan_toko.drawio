@@ -1,0 +1,154 @@
+<mxfile host="Colorbox" type="device">
+  <diagram name="State Machine Status Kunjungan ke Toko">
+    <mxGraphModel dx="760" dy="920" grid="0" page="1" pageWidth="760" pageHeight="920" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="s2" value="State Machine Status Kunjungan ke Toko&#10;Object Kunjungan ke Toko" style="shape=umlFrame;whiteSpace=wrap;html=1;width=220;height=42;fillColor=none;strokeColor=#000000;align=left;verticalAlign=top;fontSize=8;spacingLeft=4;spacingTop=2;" vertex="1" parent="1"><mxGeometry x="10" y="10" width="740" height="900" as="geometry"/></mxCell>
+        <mxCell id="s3" value="Bagian 1: Booking Tap Try and Collect" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="30" y="74" width="420" height="22" as="geometry"/></mxCell>
+        <mxCell id="s4" value="Bagian 2: Janji Donasi Pakaian" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontStyle=1;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="30" y="468" width="420" height="22" as="geometry"/></mxCell>
+        <mxCell id="s5" value="Booking Terjadwal" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="120" y="146" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s6" value="Booking Dibatalkan" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="420" y="146" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s7" value="Barang Siap di Toko" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="120" y="230" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s8" value="Barang Sudah Diambil" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="120" y="314" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s9" value="Booking Tidak Diambil" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="420" y="314" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s10" value="Donasi Terjadwal" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="120" y="540" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s11" value="Donasi Dibatalkan" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="420" y="540" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s12" value="Pakaian Donasi Diterima" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="120" y="624" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s13" value="Donasi Tidak Dipenuhi" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="420" y="624" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s14" value="Pakaian Donasi Diperiksa" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="120" y="708" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s15" value="Poin Donasi Diterbitkan" style="rounded=1;arcSize=18;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#000000;fontSize=9;verticalAlign=middle;align=center;" vertex="1" parent="1"><mxGeometry x="120" y="792" width="200" height="44" as="geometry"/></mxCell>
+        <mxCell id="s16" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="210" y="96" width="20" height="20" as="geometry"/></mxCell>
+        <mxCell id="s17" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="687" y="155" width="26" height="26" as="geometry"/></mxCell>
+        <mxCell id="s18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="687" y="323" width="26" height="26" as="geometry"/></mxCell>
+        <mxCell id="s19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="207" y="387" width="26" height="26" as="geometry"/></mxCell>
+        <mxCell id="s20" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="210" y="490" width="20" height="20" as="geometry"/></mxCell>
+        <mxCell id="s21" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="687" y="549" width="26" height="26" as="geometry"/></mxCell>
+        <mxCell id="s22" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="687" y="633" width="26" height="26" as="geometry"/></mxCell>
+        <mxCell id="s23" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="207" y="863" width="26" height="26" as="geometry"/></mxCell>
+        <mxCell id="s24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="116" as="sourcePoint"/>
+            <mxPoint x="220.0" y="146" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s25" value="pelanggan memesan slot&#10;Tap Try and Collect" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s24"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="-70.0" y="-1.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="168.0" as="sourcePoint"/>
+            <mxPoint x="420" y="168.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s27" value="pelanggan membatalkan sebelum jamnya" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s26"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="0.0" y="-32.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="168.0" as="sourcePoint"/>
+            <mxPoint x="687" y="168.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="190" as="sourcePoint"/>
+            <mxPoint x="220.0" y="230" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s30" value="kasir menyiapkan barang" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s29"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="10.0" y="-4.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="252.0" as="sourcePoint"/>
+            <mxPoint x="420" y="336.0" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="360" y="252"/>
+              <mxPoint x="360" y="336"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s32" value="pelanggan tidak datang&#10;[lewat H+1]" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s31"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="-4.0" y="-2.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="274" as="sourcePoint"/>
+            <mxPoint x="220.0" y="314" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s34" value="kode booking dipindai kasir" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s33"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="10.0" y="-4.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="336.0" as="sourcePoint"/>
+            <mxPoint x="687" y="336.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="358" as="sourcePoint"/>
+            <mxPoint x="220.0" y="387" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s37" value="barang yang dibeli dibayar di kasir" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s36"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="10.0" y="1.5" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="510" as="sourcePoint"/>
+            <mxPoint x="220.0" y="540" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s39" value="pendonor memesan slot donasi" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s38"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="-80.0" y="-1.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="562.0" as="sourcePoint"/>
+            <mxPoint x="420" y="562.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s41" value="pendonor membatalkan sebelum jamnya" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s40"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="0.0" y="-32.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="562.0" as="sourcePoint"/>
+            <mxPoint x="687" y="562.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="576.0" as="sourcePoint"/>
+            <mxPoint x="420" y="646.0" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="360" y="576"/>
+              <mxPoint x="360" y="646"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s44" value="pendonor tidak datang&#10;[lewat H+1]" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s43"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="-4.0" y="-7.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="646.0" as="sourcePoint"/>
+            <mxPoint x="687" y="646.0" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="584" as="sourcePoint"/>
+            <mxPoint x="220.0" y="624" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s47" value="kode donasi dipindai kasir" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s46"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="10.0" y="-4.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="668" as="sourcePoint"/>
+            <mxPoint x="220.0" y="708" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s49" value="kasir memeriksa pakaian" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s48"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="10.0" y="-4.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="752" as="sourcePoint"/>
+            <mxPoint x="220.0" y="792" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s51" value="sistem menambahkan poin&#10;[ada pakaian layak pakai]" style="edgeLabel;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=7;fontColor=#000000;" vertex="1" connectable="0" parent="s50"><mxGeometry x="0" y="0" relative="1" as="geometry"><mxPoint x="10.0" y="-4.0" as="offset"/></mxGeometry></mxCell>
+        <mxCell id="s52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;endArrow=block;endFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220.0" y="836" as="sourcePoint"/>
+            <mxPoint x="220.0" y="863" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

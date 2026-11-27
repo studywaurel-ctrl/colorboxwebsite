@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1078" viewBox="0 0 880 1078" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="isi" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L10,4 L0,8 z" fill="#1F3864"/></marker><marker id="buka" markerWidth="11" markerHeight="9" refX="10" refY="4.5" orient="auto"><path d="M0,0 L11,4.5 L0,9" fill="none" stroke="#1F3864" stroke-width="1.2"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="14" y="124" width="852" height="938" fill="none" stroke="#1F3864" stroke-width="1.2"/>
+<path d="M 14 124 h 126.8 l 12 14 v 8 h -138.8 z" fill="#F2F2F2" stroke="#1F3864" stroke-width="1.1"/>
+<text x="22" y="139" font-size="10" fill="#000000" text-anchor="start" font-weight="600">sd Memproses Retur</text>
+<line x1="92" y1="100" x2="92" y2="1058" stroke="#1F3864" stroke-width="1" stroke-dasharray="6 5"/>
+<line x1="324" y1="112" x2="324" y2="1058" stroke="#1F3864" stroke-width="1" stroke-dasharray="6 5"/>
+<line x1="556" y1="100" x2="556" y2="1058" stroke="#1F3864" stroke-width="1" stroke-dasharray="6 5"/>
+<line x1="788" y1="112" x2="788" y2="1058" stroke="#1F3864" stroke-width="1" stroke-dasharray="6 5"/>
+<rect x="318.5" y="158" width="11" height="346" fill="#BDD7EE" stroke="#1F3864" stroke-width="1"/>
+<rect x="318.5" y="636" width="11" height="70" fill="#BDD7EE" stroke="#1F3864" stroke-width="1"/>
+<rect x="318.5" y="920" width="11" height="70" fill="#BDD7EE" stroke="#1F3864" stroke-width="1"/>
+<rect x="550.5" y="204" width="11" height="740" fill="#BDD7EE" stroke="#1F3864" stroke-width="1"/>
+<rect x="782.5" y="250" width="11" height="70" fill="#BDD7EE" stroke="#1F3864" stroke-width="1"/>
+<rect x="782.5" y="754" width="11" height="144" fill="#BDD7EE" stroke="#1F3864" stroke-width="1"/>
+<rect x="86.5" y="154" width="11" height="840" fill="#BDD7EE" stroke="#1F3864" stroke-width="1"/>
+<circle cx="92" cy="46" r="7" fill="none" stroke="#1F3864" stroke-width="1.4"/>
+<path d="M 92 53 v 16 M 81 59 h 22 M 92 69 l -9 13 M 92 69 l 9 13" fill="none" stroke="#1F3864" stroke-width="1.4"/>
+<text x="92" y="92" font-size="9.5" fill="#000000" text-anchor="middle">Admin</text>
+<path d="M 304 43 v 30" stroke="#1F3864" stroke-width="1.6"/>
+<path d="M 304 58 h 8" stroke="#1F3864" stroke-width="1.6"/>
+<circle cx="324" cy="58" r="13" fill="#9DC3E6" stroke="#1F3864" stroke-width="1.6"/>
+<text x="324" y="92" font-size="9.5" fill="#000000" text-anchor="middle">Halaman Retur</text>
+<text x="324" y="104" font-size="9.5" fill="#000000" text-anchor="middle">Admin</text>
+<circle cx="556" cy="58" r="13" fill="#9DC3E6" stroke="#1F3864" stroke-width="1.6"/>
+<path d="M 552 46 l 7 -6 l 1 9 z" fill="#1F3864"/>
+<text x="556" y="92" font-size="9.5" fill="#000000" text-anchor="middle">ReturAdminController</text>
+<circle cx="788" cy="58" r="13" fill="#9DC3E6" stroke="#1F3864" stroke-width="1.6"/>
+<path d="M 775 74 h 26" stroke="#1F3864" stroke-width="1.6"/>
+<text x="788" y="92" font-size="9.5" fill="#000000" text-anchor="middle">Returns</text>
+<text x="788" y="104" font-size="9.5" fill="#000000" text-anchor="middle">Database</text>
+<rect x="30" y="574" width="820" height="438" fill="none" stroke="#1F3864" stroke-width="1.1"/>
+<path d="M 30 574 h 34 l 10 12 v 6 h -44 z" fill="#ffffff" stroke="#1F3864" stroke-width="1.1"/>
+<text x="37" y="587" font-size="9.5" fill="#000000" text-anchor="start">alt</text>
+<text x="84" y="588" font-size="9.5" fill="#000000" text-anchor="start"></text>
+<line x1="30" y1="726" x2="850" y2="726" stroke="#1F3864" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="40" y="740" font-size="9.5" fill="#000000" text-anchor="start">[Success]</text>
+<text x="40" y="606" font-size="9.5" fill="#000000" text-anchor="start">[Failure]</text>
+<line x1="97.5" y1="170" x2="316.5" y2="170" stroke="#1F3864" stroke-width="1.1" marker-end="url(#isi)"/>
+<text x="207.0" y="153" font-size="9" fill="#000000" text-anchor="middle">1: Membuka daftar pengajuan</text>
+<text x="207.0" y="164" font-size="9" fill="#000000" text-anchor="middle">retur</text>
+<line x1="329.5" y1="216" x2="548.5" y2="216" stroke="#1F3864" stroke-width="1.1" marker-end="url(#isi)"/>
+<text x="439.0" y="199" font-size="9" fill="#000000" text-anchor="middle">2: Request data pengajuan</text>
+<text x="439.0" y="210" font-size="9" fill="#000000" text-anchor="middle">retur</text>
+<line x1="561.5" y1="262" x2="780.5" y2="262" stroke="#1F3864" stroke-width="1.1" marker-end="url(#isi)"/>
+<text x="671.0" y="245" font-size="9" fill="#000000" text-anchor="middle">3: Request data retur dan</text>
+<text x="671.0" y="256" font-size="9" fill="#000000" text-anchor="middle">buktinya</text>
+<line x1="782.5" y1="308" x2="563.5" y2="308" stroke="#1F3864" stroke-width="1.1" stroke-dasharray="6 4" marker-end="url(#buka)"/>
+<text x="673.0" y="302" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">4: Return data retur</text>
+<line x1="550.5" y1="354" x2="331.5" y2="354" stroke="#1F3864" stroke-width="1.1" stroke-dasharray="6 4" marker-end="url(#buka)"/>
+<text x="441.0" y="348" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">5: Return daftar pengajuan</text>
+<line x1="318.5" y1="400" x2="99.5" y2="400" stroke="#1F3864" stroke-width="1.1" stroke-dasharray="6 4" marker-end="url(#buka)"/>
+<text x="209.0" y="383" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">6: Menampilkan rincian dan</text>
+<text x="209.0" y="394" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">bukti foto</text>
+<line x1="97.5" y1="446" x2="316.5" y2="446" stroke="#1F3864" stroke-width="1.1" marker-end="url(#isi)"/>
+<text x="207.0" y="429" font-size="9" fill="#000000" text-anchor="middle">7: Memilih keputusan dan</text>
+<text x="207.0" y="440" font-size="9" fill="#000000" text-anchor="middle">menulis catatan</text>
+<line x1="329.5" y1="492" x2="548.5" y2="492" stroke="#1F3864" stroke-width="1.1" marker-end="url(#isi)"/>
+<text x="439.0" y="475" font-size="9" fill="#000000" text-anchor="middle">8: Mengirimkan (submit)</text>
+<text x="439.0" y="486" font-size="9" fill="#000000" text-anchor="middle">keputusan retur</text>
+<path d="M 561.5 530 h 26 v 26 h -26" fill="none" stroke="#1F3864" stroke-width="1.1" marker-end="url(#isi)"/>
+<text x="593.5" y="536" font-size="9" fill="#000000" text-anchor="start">9: Melakukan proses</text>
+<text x="593.5" y="547" font-size="9" fill="#000000" text-anchor="start">validasi data</text>
+<line x1="550.5" y1="648" x2="331.5" y2="648" stroke="#1F3864" stroke-width="1.1" stroke-dasharray="6 4" marker-end="url(#buka)"/>
+<text x="441.0" y="631" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">10a: Mengembalikan pesan</text>
+<text x="441.0" y="642" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">peringatan error</text>
+<line x1="318.5" y1="694" x2="99.5" y2="694" stroke="#1F3864" stroke-width="1.1" stroke-dasharray="6 4" marker-end="url(#buka)"/>
+<text x="209.0" y="677" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">11a: Menampilkan pesan</text>
+<text x="209.0" y="688" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">peringatan error</text>
+<line x1="561.5" y1="766" x2="780.5" y2="766" stroke="#1F3864" stroke-width="1.1" marker-end="url(#isi)"/>
+<text x="671.0" y="749" font-size="9" fill="#000000" text-anchor="middle">10b: Mengirim instruksi</text>
+<text x="671.0" y="760" font-size="9" fill="#000000" text-anchor="middle">pembaruan &quot;update()&quot;</text>
+<path d="M 782.5 804 h -26 v 26 h 26" fill="none" stroke="#1F3864" stroke-width="1.1" marker-end="url(#isi)"/>
+<text x="750.5" y="810" font-size="9" fill="#000000" text-anchor="end">11b: Menyimpan</text>
+<text x="750.5" y="821" font-size="9" fill="#000000" text-anchor="end">keputusan dan</text>
+<text x="750.5" y="832" font-size="9" fill="#000000" text-anchor="end">notifikasi</text>
+<line x1="782.5" y1="886" x2="563.5" y2="886" stroke="#1F3864" stroke-width="1.1" stroke-dasharray="6 4" marker-end="url(#buka)"/>
+<text x="673.0" y="869" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">12b: Memberikan konfirmasi</text>
+<text x="673.0" y="880" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">data berhasil disimpan</text>
+<line x1="550.5" y1="932" x2="331.5" y2="932" stroke="#1F3864" stroke-width="1.1" stroke-dasharray="6 4" marker-end="url(#buka)"/>
+<text x="441.0" y="915" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">13b: Mengirimkan respon status</text>
+<text x="441.0" y="926" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">berhasil</text>
+<line x1="318.5" y1="978" x2="99.5" y2="978" stroke="#1F3864" stroke-width="1.1" stroke-dasharray="6 4" marker-end="url(#buka)"/>
+<text x="209.0" y="961" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">14b: Menampilkan notifikasi</text>
+<text x="209.0" y="972" font-size="9" fill="#000000" text-anchor="middle" font-style="italic">keputusan tersimpan</text>
+</svg>

@@ -1,0 +1,3452 @@
+{
+  "database": "colorbox_pelanggan",
+  "versi_server": "10.11.14-MariaDB-0ubuntu0.24.04.1",
+  "diambil_pada": "2026-11-22 20:02:37",
+  "bawaan_laravel": [
+    "migrations",
+    "password_reset_tokens",
+    "sessions",
+    "cache",
+    "cache_locks",
+    "jobs",
+    "job_batches",
+    "failed_jobs"
+  ],
+  "tabel": {
+    "addresses": {
+      "nama": "addresses",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "label",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "country",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "first_name",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "last_name",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "recipient",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "phone",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "province",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "city",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "district",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "postal_code",
+          "tipe": "VARCHAR(10)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "detail",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "landmark",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "latitude",
+          "tipe": "DECIMAL(10,7)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "longitude",
+          "tipe": "DECIMAL(10,7)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "is_primary",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "cache": {
+      "nama": "cache",
+      "kolom": [
+        {
+          "nama": "key",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "value",
+          "tipe": "MEDIUMTEXT",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "expiration",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        }
+      ],
+      "primary": [
+        "key"
+      ],
+      "bawaan": true
+    },
+    "cache_locks": {
+      "nama": "cache_locks",
+      "kolom": [
+        {
+          "nama": "key",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "owner",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "expiration",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        }
+      ],
+      "primary": [
+        "key"
+      ],
+      "bawaan": true
+    },
+    "carts": {
+      "nama": "carts",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "session_id",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "cart_items": {
+      "nama": "cart_items",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "cart_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "quantity",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "selected",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "categories": {
+      "nama": "categories",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "parent_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "name",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "slug",
+          "tipe": "VARCHAR(80)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "sort_order",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "complaints": {
+      "nama": "complaints",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "ticket_code",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "category",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "subject",
+          "tipe": "VARCHAR(150)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "handled_by",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "last_reply_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "closed_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "complaint_replies": {
+      "nama": "complaint_replies",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "complaint_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "from_admin",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "body",
+          "tipe": "TEXT",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "photo",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "discount_seasons": {
+      "nama": "discount_seasons",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "name",
+          "tipe": "VARCHAR(120)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "slug",
+          "tipe": "VARCHAR(140)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "type",
+          "tipe": "VARCHAR(10)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "percent",
+          "tipe": "TINYINT(3) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "min_purchase",
+          "tipe": "INT(10) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "description",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "started_at",
+          "tipe": "DATE",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "ended_at",
+          "tipe": "DATE",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "is_active",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "discount_season_products": {
+      "nama": "discount_season_products",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "discount_season_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "percent",
+          "tipe": "TINYINT(3) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "donations": {
+      "nama": "donations",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "donation_code",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "donation_slot_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "estimated_items",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "accepted_items",
+          "tipe": "INT(11)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "rejected_items",
+          "tipe": "INT(11)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "condition_note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "verify_note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "reject_reason",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "reject_photo",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "points_awarded",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "verified_by_user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "checked_in_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "verified_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "donation_slots": {
+      "nama": "donation_slots",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "date",
+          "tipe": "DATE",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "start_time",
+          "tipe": "TIME",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "end_time",
+          "tipe": "TIME",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "quota",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "booked_count",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "faqs": {
+      "nama": "faqs",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "faq_category_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "question",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "answer",
+          "tipe": "TEXT",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "sort_order",
+          "tipe": "SMALLINT(5) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "is_featured",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "is_active",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "views",
+          "tipe": "INT(10) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "faq_categories": {
+      "nama": "faq_categories",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "name",
+          "tipe": "VARCHAR(80)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "slug",
+          "tipe": "VARCHAR(90)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "icon",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "description",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "sort_order",
+          "tipe": "SMALLINT(5) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "is_active",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "migrations": {
+      "nama": "migrations",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "INT(10) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "migration",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "batch",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": true
+    },
+    "notifications": {
+      "nama": "notifications",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "category",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "title",
+          "tipe": "VARCHAR(120)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "body",
+          "tipe": "VARCHAR(255)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "url",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "read_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "orders": {
+      "nama": "orders",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_code",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "address_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "shipping_rate_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "fulfillment_method",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "voucher_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "subtotal",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "shipping_cost",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "discount",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "points_used",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "total",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "paid_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "picked_up_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "follow_up_action",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "follow_up_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "completed_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "verified_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "receipt_photo",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "cancelled_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "order_items": {
+      "nama": "order_items",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "product_name",
+          "tipe": "VARCHAR(150)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "color",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "size",
+          "tipe": "VARCHAR(10)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "image_path",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "price",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "quantity",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "subtotal",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "reviewed",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "password_reset_tokens": {
+      "nama": "password_reset_tokens",
+      "kolom": [
+        {
+          "nama": "email",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "token",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "email"
+      ],
+      "bawaan": true
+    },
+    "payments": {
+      "nama": "payments",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "payment_method",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "transaction_id",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "snap_token",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "snap_url",
+          "tipe": "VARCHAR(255)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "gross_amount",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "transaction_status",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "payment_status",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "raw_response",
+          "tipe": "TEXT",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "paid_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "expired_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "point_transactions": {
+      "nama": "point_transactions",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "type",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "source",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "amount",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "products": {
+      "nama": "products",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "category_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "name",
+          "tipe": "VARCHAR(150)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "slug",
+          "tipe": "VARCHAR(180)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "sku",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "price",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "discount_price",
+          "tipe": "INT(11)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "discount_percent",
+          "tipe": "TINYINT(3) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "description",
+          "tipe": "TEXT",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "material",
+          "tipe": "VARCHAR(150)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "care",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "size_spec",
+          "tipe": "TEXT",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "model_spec",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "collection",
+          "tipe": "VARCHAR(80)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "is_new",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "is_active",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "weight",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "product_images": {
+      "nama": "product_images",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "color",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "path",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "source_url",
+          "tipe": "VARCHAR(500)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "sort_order",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "product_variants": {
+      "nama": "product_variants",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "color",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "color_hex",
+          "tipe": "VARCHAR(10)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "size",
+          "tipe": "VARCHAR(10)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "sku",
+          "tipe": "VARCHAR(50)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "on_hand",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "committed",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "return_items": {
+      "nama": "return_items",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "return_request_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_item_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "product_name",
+          "tipe": "VARCHAR(150)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "quantity",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "return_requests": {
+      "nama": "return_requests",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "return_code",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "purchase_code",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "type",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "exchange_type",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "exchange_note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "method",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "return_date",
+          "tipe": "DATE",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "return_time",
+          "tipe": "VARCHAR(5)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "courier",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "tracking_number",
+          "tipe": "VARCHAR(50)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "shipped_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "received_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "replacement_courier",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "replacement_tracking_number",
+          "tipe": "VARCHAR(50)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "reason",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "photo",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "photos",
+          "tipe": "JSON",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "video_path",
+          "tipe": "VARCHAR(255)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "admin_note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "reject_reason",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "approved_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "arrive_by",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "completed_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "reviews": {
+      "nama": "reviews",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_item_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "rating",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "comment",
+          "tipe": "TEXT",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "photos",
+          "tipe": "LONGTEXT",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "video_path",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "sessions": {
+      "nama": "sessions",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "ip_address",
+          "tipe": "VARCHAR(45)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "user_agent",
+          "tipe": "TEXT",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "payload",
+          "tipe": "LONGTEXT",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "last_activity",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": true
+    },
+    "settings": {
+      "nama": "settings",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "key",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "value",
+          "tipe": "VARCHAR(255)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "description",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "shipments": {
+      "nama": "shipments",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "provider_order_id",
+          "tipe": "VARCHAR(64)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "tracking_id",
+          "tipe": "VARCHAR(64)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "courier",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "service",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "tracking_number",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "tracking_url",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "driver_name",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "driver_phone",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "cost",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "shipped_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "delivered_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "proof_photo_url",
+          "tipe": "VARCHAR(255)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "last_synced_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "shipping_rates": {
+      "nama": "shipping_rates",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "courier",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "provider_courier",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "service",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "provider_service",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "cost",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "cost_per_km",
+          "tipe": "INT(10) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "etd_min",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "etd_max",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "is_active",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "stock_batches": {
+      "nama": "stock_batches",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "received_on",
+          "tipe": "DATE",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "qty_in",
+          "tipe": "INT(10) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "qty_remaining",
+          "tipe": "INT(10) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "source",
+          "tipe": "VARCHAR(120)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "stock_movements": {
+      "nama": "stock_movements",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "type",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "qty",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "on_hand_after",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "committed_after",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "stock_transfers": {
+      "nama": "stock_transfers",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "transfer_code",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "from_store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "to_store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_by",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "approved_by",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "received_by",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "approved_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "received_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "difference_note",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "stock_transfer_items": {
+      "nama": "stock_transfer_items",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "stock_transfer_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "product_name",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "color",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "size",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "qty_sent",
+          "tipe": "INT(10) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "qty_received",
+          "tipe": "INT(10) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "stores": {
+      "nama": "stores",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "code",
+          "tipe": "VARCHAR(10)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "name",
+          "tipe": "VARCHAR(120)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "city",
+          "tipe": "VARCHAR(60)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "address",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "floor",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "phone",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "latitude",
+          "tipe": "DECIMAL(10,6)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "longitude",
+          "tipe": "DECIMAL(10,6)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "open_time",
+          "tipe": "TIME",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "close_time",
+          "tipe": "TIME",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "has_ttc",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "has_donation",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "is_active",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "store_stocks": {
+      "nama": "store_stocks",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "on_hand",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "committed",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "tap_try_collects": {
+      "nama": "tap_try_collects",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "booking_code",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "tap_try_collect_slot_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "source",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "purchase_code",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "total_paid",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "handled_by_user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "ready_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "collected_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "completed_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "confirmed_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "tap_try_collect_items": {
+      "nama": "tap_try_collect_items",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "tap_try_collect_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "quantity",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "purchased",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "tap_try_collect_slots": {
+      "nama": "tap_try_collect_slots",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "date",
+          "tipe": "DATE",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "start_time",
+          "tipe": "TIME",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "end_time",
+          "tipe": "TIME",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "quota",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "booked_count",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "tracking_events": {
+      "nama": "tracking_events",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "order_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "description",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "happened_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "users": {
+      "nama": "users",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "name",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "email",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "email_verified_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "password",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "phone",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "birth_date",
+          "tipe": "DATE",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "gender",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "photo",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "role",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "store_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "points",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "member_code",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "member_level",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "remember_token",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "virtual_try_ons": {
+      "nama": "virtual_try_ons",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "product_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "color",
+          "tipe": "VARCHAR(40)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "size",
+          "tipe": "VARCHAR(10)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "look_name",
+          "tipe": "VARCHAR(80)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "saved",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "photo_path",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "result_path",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "status",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "driver",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "step",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "external_id",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "error_message",
+          "tipe": "VARCHAR(191)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "processed_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "virtual_try_on_items": {
+      "nama": "virtual_try_on_items",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "virtual_try_on_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_variant_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "category_slot",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "sort_order",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "vouchers": {
+      "nama": "vouchers",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "code",
+          "tipe": "VARCHAR(30)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "name",
+          "tipe": "VARCHAR(100)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "type",
+          "tipe": "VARCHAR(20)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "value",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "max_discount",
+          "tipe": "INT(11)",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "min_purchase",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "quota",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "started_at",
+          "tipe": "DATE",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "used",
+          "tipe": "INT(11)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "expired_at",
+          "tipe": "DATE",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "is_active",
+          "tipe": "TINYINT(1)",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    },
+    "wishlists": {
+      "nama": "wishlists",
+      "kolom": [
+        {
+          "nama": "id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "user_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "product_id",
+          "tipe": "BIGINT(20) UNSIGNED",
+          "boleh_kosong": false
+        },
+        {
+          "nama": "created_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        },
+        {
+          "nama": "updated_at",
+          "tipe": "TIMESTAMP",
+          "boleh_kosong": true
+        }
+      ],
+      "primary": [
+        "id"
+      ],
+      "bawaan": false
+    }
+  },
+  "relasi": [
+    {
+      "anak": "addresses",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "addresses_user_id_foreign"
+    },
+    {
+      "anak": "carts",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "carts_user_id_foreign"
+    },
+    {
+      "anak": "cart_items",
+      "kolom": "cart_id",
+      "induk": "carts",
+      "kunci_induk": "id",
+      "nama_constraint": "cart_items_cart_id_foreign"
+    },
+    {
+      "anak": "cart_items",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "cart_items_product_variant_id_foreign"
+    },
+    {
+      "anak": "categories",
+      "kolom": "parent_id",
+      "induk": "categories",
+      "kunci_induk": "id",
+      "nama_constraint": "categories_parent_id_foreign"
+    },
+    {
+      "anak": "complaints",
+      "kolom": "handled_by",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "complaints_handled_by_foreign"
+    },
+    {
+      "anak": "complaints",
+      "kolom": "order_id",
+      "induk": "orders",
+      "kunci_induk": "id",
+      "nama_constraint": "complaints_order_id_foreign"
+    },
+    {
+      "anak": "complaints",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "complaints_user_id_foreign"
+    },
+    {
+      "anak": "complaint_replies",
+      "kolom": "complaint_id",
+      "induk": "complaints",
+      "kunci_induk": "id",
+      "nama_constraint": "complaint_replies_complaint_id_foreign"
+    },
+    {
+      "anak": "complaint_replies",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "complaint_replies_user_id_foreign"
+    },
+    {
+      "anak": "discount_season_products",
+      "kolom": "discount_season_id",
+      "induk": "discount_seasons",
+      "kunci_induk": "id",
+      "nama_constraint": "discount_season_products_discount_season_id_foreign"
+    },
+    {
+      "anak": "discount_season_products",
+      "kolom": "product_id",
+      "induk": "products",
+      "kunci_induk": "id",
+      "nama_constraint": "discount_season_products_product_id_foreign"
+    },
+    {
+      "anak": "donations",
+      "kolom": "donation_slot_id",
+      "induk": "donation_slots",
+      "kunci_induk": "id",
+      "nama_constraint": "donations_donation_slot_id_foreign"
+    },
+    {
+      "anak": "donations",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "donations_store_id_foreign"
+    },
+    {
+      "anak": "donations",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "donations_user_id_foreign"
+    },
+    {
+      "anak": "donations",
+      "kolom": "verified_by_user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "donations_verified_by_user_id_foreign"
+    },
+    {
+      "anak": "donation_slots",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "donation_slots_store_id_foreign"
+    },
+    {
+      "anak": "faqs",
+      "kolom": "faq_category_id",
+      "induk": "faq_categories",
+      "kunci_induk": "id",
+      "nama_constraint": "faqs_faq_category_id_foreign"
+    },
+    {
+      "anak": "notifications",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "notifications_user_id_foreign"
+    },
+    {
+      "anak": "orders",
+      "kolom": "address_id",
+      "induk": "addresses",
+      "kunci_induk": "id",
+      "nama_constraint": "orders_address_id_foreign"
+    },
+    {
+      "anak": "orders",
+      "kolom": "shipping_rate_id",
+      "induk": "shipping_rates",
+      "kunci_induk": "id",
+      "nama_constraint": "orders_shipping_rate_id_foreign"
+    },
+    {
+      "anak": "orders",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "orders_store_id_foreign"
+    },
+    {
+      "anak": "orders",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "orders_user_id_foreign"
+    },
+    {
+      "anak": "orders",
+      "kolom": "voucher_id",
+      "induk": "vouchers",
+      "kunci_induk": "id",
+      "nama_constraint": "orders_voucher_id_foreign"
+    },
+    {
+      "anak": "order_items",
+      "kolom": "order_id",
+      "induk": "orders",
+      "kunci_induk": "id",
+      "nama_constraint": "order_items_order_id_foreign"
+    },
+    {
+      "anak": "order_items",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "order_items_product_variant_id_foreign"
+    },
+    {
+      "anak": "payments",
+      "kolom": "order_id",
+      "induk": "orders",
+      "kunci_induk": "id",
+      "nama_constraint": "payments_order_id_foreign"
+    },
+    {
+      "anak": "point_transactions",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "point_transactions_user_id_foreign"
+    },
+    {
+      "anak": "products",
+      "kolom": "category_id",
+      "induk": "categories",
+      "kunci_induk": "id",
+      "nama_constraint": "products_category_id_foreign"
+    },
+    {
+      "anak": "product_images",
+      "kolom": "product_id",
+      "induk": "products",
+      "kunci_induk": "id",
+      "nama_constraint": "product_images_product_id_foreign"
+    },
+    {
+      "anak": "product_variants",
+      "kolom": "product_id",
+      "induk": "products",
+      "kunci_induk": "id",
+      "nama_constraint": "product_variants_product_id_foreign"
+    },
+    {
+      "anak": "return_items",
+      "kolom": "order_item_id",
+      "induk": "order_items",
+      "kunci_induk": "id",
+      "nama_constraint": "return_items_order_item_id_foreign"
+    },
+    {
+      "anak": "return_items",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "return_items_product_variant_id_foreign"
+    },
+    {
+      "anak": "return_items",
+      "kolom": "return_request_id",
+      "induk": "return_requests",
+      "kunci_induk": "id",
+      "nama_constraint": "return_items_return_request_id_foreign"
+    },
+    {
+      "anak": "return_requests",
+      "kolom": "order_id",
+      "induk": "orders",
+      "kunci_induk": "id",
+      "nama_constraint": "return_requests_order_id_foreign"
+    },
+    {
+      "anak": "return_requests",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "return_requests_store_id_foreign"
+    },
+    {
+      "anak": "return_requests",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "return_requests_user_id_foreign"
+    },
+    {
+      "anak": "reviews",
+      "kolom": "order_item_id",
+      "induk": "order_items",
+      "kunci_induk": "id",
+      "nama_constraint": "reviews_order_item_id_foreign"
+    },
+    {
+      "anak": "reviews",
+      "kolom": "product_id",
+      "induk": "products",
+      "kunci_induk": "id",
+      "nama_constraint": "reviews_product_id_foreign"
+    },
+    {
+      "anak": "reviews",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "reviews_user_id_foreign"
+    },
+    {
+      "anak": "shipments",
+      "kolom": "order_id",
+      "induk": "orders",
+      "kunci_induk": "id",
+      "nama_constraint": "shipments_order_id_foreign"
+    },
+    {
+      "anak": "stock_batches",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_batches_product_variant_id_foreign"
+    },
+    {
+      "anak": "stock_batches",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_batches_store_id_foreign"
+    },
+    {
+      "anak": "stock_batches",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_batches_user_id_foreign"
+    },
+    {
+      "anak": "stock_movements",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_movements_product_variant_id_foreign"
+    },
+    {
+      "anak": "stock_movements",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_movements_store_id_foreign"
+    },
+    {
+      "anak": "stock_movements",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_movements_user_id_foreign"
+    },
+    {
+      "anak": "stock_transfers",
+      "kolom": "approved_by",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_transfers_approved_by_foreign"
+    },
+    {
+      "anak": "stock_transfers",
+      "kolom": "created_by",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_transfers_created_by_foreign"
+    },
+    {
+      "anak": "stock_transfers",
+      "kolom": "from_store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_transfers_from_store_id_foreign"
+    },
+    {
+      "anak": "stock_transfers",
+      "kolom": "received_by",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_transfers_received_by_foreign"
+    },
+    {
+      "anak": "stock_transfers",
+      "kolom": "to_store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_transfers_to_store_id_foreign"
+    },
+    {
+      "anak": "stock_transfer_items",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_transfer_items_product_variant_id_foreign"
+    },
+    {
+      "anak": "stock_transfer_items",
+      "kolom": "stock_transfer_id",
+      "induk": "stock_transfers",
+      "kunci_induk": "id",
+      "nama_constraint": "stock_transfer_items_stock_transfer_id_foreign"
+    },
+    {
+      "anak": "store_stocks",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "store_stocks_product_variant_id_foreign"
+    },
+    {
+      "anak": "store_stocks",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "store_stocks_store_id_foreign"
+    },
+    {
+      "anak": "tap_try_collects",
+      "kolom": "handled_by_user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "tap_try_collects_handled_by_user_id_foreign"
+    },
+    {
+      "anak": "tap_try_collects",
+      "kolom": "order_id",
+      "induk": "orders",
+      "kunci_induk": "id",
+      "nama_constraint": "tap_try_collects_order_id_foreign"
+    },
+    {
+      "anak": "tap_try_collects",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "tap_try_collects_store_id_foreign"
+    },
+    {
+      "anak": "tap_try_collects",
+      "kolom": "tap_try_collect_slot_id",
+      "induk": "tap_try_collect_slots",
+      "kunci_induk": "id",
+      "nama_constraint": "tap_try_collects_tap_try_collect_slot_id_foreign"
+    },
+    {
+      "anak": "tap_try_collects",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "tap_try_collects_user_id_foreign"
+    },
+    {
+      "anak": "tap_try_collect_items",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "tap_try_collect_items_product_variant_id_foreign"
+    },
+    {
+      "anak": "tap_try_collect_items",
+      "kolom": "tap_try_collect_id",
+      "induk": "tap_try_collects",
+      "kunci_induk": "id",
+      "nama_constraint": "tap_try_collect_items_tap_try_collect_id_foreign"
+    },
+    {
+      "anak": "tap_try_collect_slots",
+      "kolom": "store_id",
+      "induk": "stores",
+      "kunci_induk": "id",
+      "nama_constraint": "tap_try_collect_slots_store_id_foreign"
+    },
+    {
+      "anak": "tracking_events",
+      "kolom": "order_id",
+      "induk": "orders",
+      "kunci_induk": "id",
+      "nama_constraint": "tracking_events_order_id_foreign"
+    },
+    {
+      "anak": "virtual_try_ons",
+      "kolom": "product_id",
+      "induk": "products",
+      "kunci_induk": "id",
+      "nama_constraint": "virtual_try_ons_product_id_foreign"
+    },
+    {
+      "anak": "virtual_try_ons",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "virtual_try_ons_user_id_foreign"
+    },
+    {
+      "anak": "virtual_try_on_items",
+      "kolom": "product_id",
+      "induk": "products",
+      "kunci_induk": "id",
+      "nama_constraint": "virtual_try_on_items_product_id_foreign"
+    },
+    {
+      "anak": "virtual_try_on_items",
+      "kolom": "product_variant_id",
+      "induk": "product_variants",
+      "kunci_induk": "id",
+      "nama_constraint": "virtual_try_on_items_product_variant_id_foreign"
+    },
+    {
+      "anak": "virtual_try_on_items",
+      "kolom": "virtual_try_on_id",
+      "induk": "virtual_try_ons",
+      "kunci_induk": "id",
+      "nama_constraint": "virtual_try_on_items_virtual_try_on_id_foreign"
+    },
+    {
+      "anak": "wishlists",
+      "kolom": "product_id",
+      "induk": "products",
+      "kunci_induk": "id",
+      "nama_constraint": "wishlists_product_id_foreign"
+    },
+    {
+      "anak": "wishlists",
+      "kolom": "user_id",
+      "induk": "users",
+      "kunci_induk": "id",
+      "nama_constraint": "wishlists_user_id_foreign"
+    }
+  ]
+}
